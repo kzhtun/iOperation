@@ -1,0 +1,643 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/COLOR_BLUE_BG"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/llTopLayout_WelcomeIbidding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="I-Bidding"
+                android:textColor="@color/COLOR_WHITE"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btListing_WelcomeIbidding"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:background="@drawable/roundededgebox_buttongreen"
+                android:text="LISTING"
+                android:textColor="@color/COLOR_BLACK"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btHome_WelcomeIbidding"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/roundededgebox_buttongreen"
+                android:text="HOME"
+                android:textColor="@color/COLOR_BLACK"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Date: "
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvDateTime_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Customer: "
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvCustomer_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:maxLines="2"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Adults: "
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvAdult_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Child: "
+                        android:textSize="20sp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvChild_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="1"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical">-->
+
+            <!--<Button-->
+            <!--android:id="@+id/btReassign_WelcomeIbidding"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:padding="2dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="RE ASSIGN"-->
+            <!--android:textSize="14sp" />-->
+
+            <!--<Button-->
+            <!--android:id="@+id/btReject_WelcomeIbidding"-->
+            <!--android:layout_width="120dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:padding="2dp"-->
+            <!--android:textStyle="bold"-->
+            <!--android:text="REJECT"-->
+            <!--android:textSize="14sp" />-->
+            <!--</LinearLayout>-->
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/llBottom_WelcomeIbidding"
+        android:layout_below="@+id/llTopLayout_WelcomeIbidding"
+        android:background="@color/COLOR_ITEM_IBIDDING_DETAILS"
+        android:orientation="vertical"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:textSize="20sp"
+                        android:text="Pickup: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvPickup_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:textSize="20sp"
+                        android:text="Alight: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvAlight_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Hotel: "
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvHotel_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:textSize="20sp"
+                        android:text="Flight: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvFlight_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Type: "
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvType_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="90dp"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Amount: "
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvAmount_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Contact: "
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvContact_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Phone: "
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvPhone_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Description: "
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvDesc_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:textSize="20sp"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Remarks: "
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvRemarks_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="TPT Note: "
+                        android:textSize="20sp"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvtptNote_WelcomeIbidding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <!--<TextView-->
+    <!--android:id="@+id/TextViewDialogCountDownIdle"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:text="Welcome"-->
+    <!--android:textSize="25sp"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<com.info121.ioperation.util.AutoFitTextView-->
+    <!--android:id="@+id/textViewWelcomeName"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:layout_marginRight="5dp"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:gravity="center"-->
+    <!--android:text=""-->
+    <!--android:textColor="@color/COLOR_RED"-->
+    <!--android:textStyle="bold" />-->
+
+    <LinearLayout
+        android:id="@+id/llBottom_WelcomeIbidding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/COLOR_BLUE_BG"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/COLOR_ITEM_IBIDDING_DETAILS"
+            android:gravity="center_vertical|center"
+            android:padding="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="&lt;"
+                android:layout_marginLeft="70dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/COLOR_YELLOW"
+                android:textSize="50sp" />
+
+            <TextView
+                android:id="@+id/tvPageNo_WelcomeIbidding"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="1/20"
+                android:textColor="@color/COLOR_YELLOW"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="&gt;"
+                android:layout_marginRight="70dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/COLOR_YELLOW"
+                android:textSize="50sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="@color/COLOR_BLUE_BG"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btAccept_WelcomeIbidding"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:text="Accept"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btReject_WelcomeIbidding"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:text="Reject"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLRootLoading_WelcomeIbidding"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="#88777777"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/roundededgebox2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Loading"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

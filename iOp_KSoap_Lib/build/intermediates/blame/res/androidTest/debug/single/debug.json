@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOp_KSoap_Lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-ldpi-v4_ic_launcher.png.flat",
+        "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOp_KSoap_Lib\\build\\intermediates\\bundles\\debug\\res\\drawable-ldpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOp_KSoap_Lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOp_KSoap_Lib\\build\\intermediates\\bundles\\debug\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOp_KSoap_Lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu_activity_main.xml.flat",
+        "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOp_KSoap_Lib\\build\\intermediates\\bundles\\debug\\res\\menu\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOp_KSoap_Lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ic_launcher.png.flat",
+        "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOp_KSoap_Lib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOp_KSoap_Lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_launcher.png.flat",
+        "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOp_KSoap_Lib\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOp_KSoap_Lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4_ic_launcher.png.flat",
+        "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOp_KSoap_Lib\\build\\intermediates\\bundles\\debug\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    }
+]

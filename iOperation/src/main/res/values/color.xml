@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="COLOR_BG">#b4030d</color>
+    <color name="COLOR_SUBTEXT">#4f5969</color>
+    <color name="COLOR_BLACK">#000000</color>
+    <color name="COLOR_WHITE">#FFFFFF</color>
+    <color name="COLOR_BUTTONTEXT">#cc7b6b</color>
+    <color name="COLOR_LINE">#a8abad</color>
+    <color name="COLOR_LIGHTBLUE">#67799f</color>
+    <color name="COLOR_GRAY">#C0C0C0</color>
+    <color name="COLOR_LIGHT_GRAY">#bebebe</color>
+    <color name="COLOR_DARKER_LIGHT_BLUE">#000080</color>
+    <color name="COLOR_TRANSPARENT">#00000000</color>
+    <color name="COLOR_LIST_DARK">#4A4A4A</color>
+    <color name="COLOR_LIST_LIGHT">#3B3B3B</color>
+    <color name="COLOR_RED">#FF0000</color>
+    <color name="COLOR_GREEN">#31D43E</color>
+    <color name="COLOR_BLUE">#005B93</color>
+    <color name="COLOR_BLUE_BG">#006BAE</color>
+    <color name="COLOR_GREEN_ITEM">#67B64E</color>
+    <color name="COLOR_GREEN_ITEM_READ">#9967B64E</color>
+    <color name="COLOR_LIGHT_BLUE">#47B3F6</color>
+    <color name="COLOR_ITEM_IBIDDING">#3D8FDD</color>
+    <color name="COLOR_ITEM_IBIDDING_DETAILS">#002F00</color>
+    <color name="COLOR_YELLOW">#FFFF00</color>
+    <color name="ORANGE">#FFA500</color>
+    <color name="COLOR_DARK_BLUE">#00008B</color>
+    <color name="COLOR_GREENN">#009900</color>
+
+
+    <color name="gpt_custom_dialog_bg">#555555</color>
+    <color name="text_color_cream">#500B0B</color>
+    <color name="text_color_green">#4B0A0A</color>
+    <color name="gpt_button_start_color">#555555</color>
+    <color name="gpt_button_end_color">#555555</color>
+    <color name="semi_translucent">#70000000</color>
+
+    <color name="PrimaryColor">#2196F3</color>
+    <color name="PrimaryDarkColor">#1976D2</color>
+</resources>

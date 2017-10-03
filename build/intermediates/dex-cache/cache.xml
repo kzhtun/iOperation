@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\exploded-aar\iOperation Android Studio\iOp_KSoap_Lib\unspecified\jars\libs\kxml2-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="d30b4a3fed539977cc38ffabc10647151d729b95">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\8\kxml2-2.3.0_1fb58fb3ca8d9d89369fe8d3f0e2b967f0ff8d55\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\sdk\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.2.1_183c7ee2c3e97d6a81a9f63b5d7f29627b27600c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="70a6d9ab0799bbd52b2d76c3365421ee4c6d9332">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_325dd498ae0f0db78ae466fc51261517c4d8086f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\exploded-aar\de.hdodenhof\circleimageview\2.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="031e8b3ab2df4ab43b1017f84417d7e10dfbb8d2">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\10\de.hdodenhof-circleimageview-2.0.0_fe2acd5b95517b30432ce0ba8111135cfb0b5b9e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\libs\android-viewbadger.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="f1303b50d535716ca7601c5014357b8435658313">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\2\android-viewbadger_53788018babe3290a0dea01ea05ca155f9257e72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-multidex-1.0.1_af0259d8ea64a8d9dabf628dc3dd606670007f23\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\libs\gcm.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\2\gcm_09434a5dd3c62f7dc6d38fba561036d455fc1536\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\libs\simpleftp.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="4d485dff16942a0618ab9188e4ac3eff1b5fba4c">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\2\simpleftp_00088b07e358972b75e250c3926f35d4901b8b3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-22.2.1_31c0a0823fddeac8463d750b719855eca5783137\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\libs\commons-net-2.0-ftp.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="4a55ae5b0c26780d1f7967b0b5ead5790c112d56">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\2\commons-net-2.0-ftp_b95b174707b6e556d73dca850dbfd1209b074d39\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.1_4da2cc600aeb467414f60e1870f80217601be434\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\libs\littlefluffylocationlibrary_r11.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="641c2e3817bbab0ec7949a557f7403d03003b751">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\2\littlefluffylocationlibrary_r11_daf8f2fe49f11c969e81d8b8f565bd0117bcde5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\libs\acra-4.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\2\acra-4.5.0_45f8f672a4bfa8e5d108ada7beccf921646ac326\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-22.2.1_2810d76f08292f9db89a6790822b0f4fd6650bd1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="c8ea6164f303c66d796d0cab9bc84ecd15b623aa">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_abb9430654d7b33f285265f0f1765c661cd98648\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.2.1_be5ad27fd9ef11798d034c17f9a9fa889e8324a0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-22.2.1_b7156e9b92e1eba744585676d9bb7dd9e584b83e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\exploded-aar\com.viewpagerindicator\library\2.4.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.0"
+        sha1="88e8e18d365173ad04a543d76c157e0b644f0b3f">
+        <dex dex="E:\SourceCode\iOperation Android Studio\iOperation\build\intermediates\transforms\dex\debug\folders\1000\10\com.viewpagerindicator-library-2.4.1_edb573ec87094dc273d4d2fde8e3e2695525ca1f\classes.dex" />
+    </item>
+
+</items>

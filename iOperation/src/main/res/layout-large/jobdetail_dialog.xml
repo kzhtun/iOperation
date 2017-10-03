@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:layout_width="850dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/roundededgeboxdialog"
+        android:padding="15dp"
+        android:layout_margin="10dp">
+
+        <!-- android:inputType="textMultiLine" -->
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerInParent="true" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/LLJobDetailContainer"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center" >
+
+                    <LinearLayout
+                        android:layout_width="180dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/TextView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Job No"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView09"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Booking No"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView08"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Passenger Name"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView07"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Date"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView06"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Pickup Time"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView05"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Flight No"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView04"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Hotel"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Type"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Adult"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextViewDialogCountDownIdle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Child"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text="Remarks"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/TextView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text=":"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView09"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text=":"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView08"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text=":"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView07"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text=":"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView06"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text=":"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView05"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text=":"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView04"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text=":"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView03"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text=":"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextView02"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text=":"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextViewDialogCountDownIdle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text=":"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textview"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:text=":"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/TextViewJobDialogJobNo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:lines="1"
+                            android:singleLine="true"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextViewJobDialogBookingNo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextViewJobDialogPassegerName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextViewJobDialogDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextViewJobDialogPickupTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextViewJobDialogFlightNo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextViewJobDialogHotel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextViewJobDialogType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextViewJobDialogAdult"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/TextViewJobDialogChild"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:singleLine="true"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+
+                         <LinearLayout
+		                    android:id="@+id/LLBoxRemarks"
+		                    android:layout_width="wrap_content"
+		                    android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:id="@+id/TextViewJobDialogRemarks"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_margin="5dp"
+                            android:singleLine="true"
+                            android:ellipsize="end"
+        					android:maxLines="1"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textSize="18dip"
+                            android:textStyle="bold" />
+                        
+                        <Button
+                            android:id="@+id/BtnRemarksSHowAll" 
+                            android:layout_width="130dp"
+                            android:layout_height="wrap_content"
+                             android:text="Show All"/>
+                        
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLJobDetailButtonContainer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/ButtonDialogOKToContinue"
+                        android:layout_width="150dp"
+                        android:layout_height="35dip"
+                        android:layout_marginBottom="3dip"
+                        android:layout_marginRight="10dip"
+                        android:layout_marginTop="10dip"
+                        android:background="@drawable/action_button_empty_cream"
+                        android:text="Re Assign"
+                        android:textColor="@color/COLOR_BLACK"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/ButtonDialogPhotoClose"
+                        android:layout_width="150dp"
+                        android:layout_height="35dip"
+                        android:layout_marginBottom="3dip"
+                        android:layout_marginTop="10dip"
+                        android:background="@drawable/action_button_empty_cream"
+                        android:text="Close"
+                        android:textColor="@color/COLOR_BLACK"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

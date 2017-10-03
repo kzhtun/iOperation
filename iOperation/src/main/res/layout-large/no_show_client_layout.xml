@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewNoShowName"
+                style="@style/TextNoShow600dp1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:padding="25dp"
+                android:text="TextView" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="@color/COLOR_BLACK" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="25sp"
+                android:text="Remarks"
+                android:textColor="@color/COLOR_BLACK" />
+
+            <!--<TextView-->
+            <!--android:id="@+id/textViewNoShowLocation"-->
+            <!--style="@style/TextNoShow600dp1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="TextView" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/textViewNoShowDate"-->
+            <!--style="@style/TextNoShow600dp1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="TextView" />-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/textViewNoShowStart"-->
+            <!--style="@style/TextNoShow600dp1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="TextView" />-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textViewNoShowReason"
+                    style="@style/TextNoShow600dp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_show_reason"
+                    android:textSize="22sp"/>
+
+                <Spinner
+                    android:id="@+id/spinnerFeedbackReferenceJobNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/COLOR_BLACK" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <EditText
+                    android:id="@+id/editTextNoShow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="250dp"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:textSize="25sp"
+                    android:background="@drawable/roundededgebox_feedback"
+                    android:drawableTop="@drawable/roundededgebox_noshow"
+                    android:ems="10"
+                    android:gravity="top|left"
+                    android:padding="20dp"
+
+                    >
+
+                    <requestFocus />
+                </EditText>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_margin="15dp"
+            >
+
+            <ImageView
+                android:id="@+id/imageViewShowCamera"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center_vertical"
+                android:scaleType="fitXY"
+                android:src="@drawable/camera_icon" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:layout_margin="15dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="60dp"
+                android:layout_marginRight="3dp"
+                android:textSize="20sp"
+                android:text="Back" />
+
+            <Button
+                android:id="@+id/buttonNoShowContinue"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="60dp"
+                android:layout_marginLeft="3dp"
+                android:textSize="20sp"
+                android:text="Save" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

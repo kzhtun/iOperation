@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="commons-net-2.0-ftp">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/iOperation/libs/commons-net-2.0-ftp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

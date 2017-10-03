@@ -1,0 +1,172 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/header_model5"
+    android:gravity="top"
+    android:scrollbars="horizontal"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/LLTopText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:text="IOPS Main Screen"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LLHeader"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="false"
+                android:layout_below="@id/LLTopText"
+                android:layout_marginBottom="20dp">
+
+                <TextView
+                    android:id="@+id/textViewUsername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:text="Welcome : Terence"
+                    android:textColor="@color/COLOR_BLACK"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textViewDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:text="10 April, 2013 10:30 AM"
+                    android:textColor="@color/COLOR_BLACK"
+                    android:textSize="16sp" />
+
+            </LinearLayout>
+
+
+
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_below="@id/LLHeader"
+                android:layout_centerVertical="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/LLMainMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|center_horizontal"
+                        android:orientation="horizontal">
+
+
+                        <Button
+                            android:id="@+id/ButtonTaskiOperation"
+                            android:layout_width="220dp"
+                            android:layout_height="45dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/roundededgebox_buttongreen"
+                            android:text="@string/main_menu2"
+                            android:textColor="@color/COLOR_WHITE"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/ButtonTaskiBidding"
+                            android:layout_width="140dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/roundededgebox_buttongreen"
+                            android:text="@string/main_menu3"
+                            android:textColor="@color/COLOR_WHITE"
+                            android:textSize="16sp" />
+
+                        <Button
+                            android:id="@+id/buttonTaskFeedback"
+                            android:layout_width="110dp"
+                            android:layout_height="45dp"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/roundededgebox_buttongreen"
+                            android:text="@string/main_menu4"
+                            android:textColor="@color/COLOR_WHITE"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/LLMainMenu"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/ButtonChangePassword"
+                            android:layout_width="180dp"
+                            android:layout_height="45dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@drawable/roundededgebox_buttongreen"
+                            android:text="@string/main_menu1"
+                            android:textColor="@color/COLOR_WHITE"
+                            android:textSize="14sp" />
+
+
+                        <Button
+                            android:id="@+id/ButtonLogOut"
+                            android:layout_width="180dp"
+                            android:layout_height="45dp"
+                            android:background="@drawable/roundededgebox_buttongreen"
+                            android:text="@string/main_menu5"
+                            android:textColor="@color/COLOR_WHITE"
+                            android:textSize="14sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <ImageView
+                android:id="@+id/imageViewRefresh"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:src="@drawable/refresh" />
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

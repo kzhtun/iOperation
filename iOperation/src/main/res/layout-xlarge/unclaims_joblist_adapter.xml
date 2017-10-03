@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:background="@color/COLOR_BLUE"
+    android:orientation="horizontal">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:id="@+id/linear_unclaims_joblist"
+        android:background="@drawable/rounded_itemview"
+
+        android:orientation="horizontal"
+        >
+
+
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:padding="13dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.60"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="20">
+
+                    <TextView
+                        android:id="@+id/tv_date_unclaims_joblist_adapter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5" android:textSize="20dp"
+                        android:text="18/5/2016"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/COLOR_WHITE" />
+
+                    <TextView
+                        android:textSize="20dp"
+                        android:id="@+id/tv_opstype_unclaims_joblist_adapter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:text="ARR"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/COLOR_WHITE" />
+
+                    <TextView android:textSize="20dp"
+                        android:id="@+id/tv_pax_unclaims_joblist_adapter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:text="5"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/COLOR_WHITE" />
+
+                    <TextView android:textSize="20dp"
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:text="Pax"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/COLOR_WHITE" />
+
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView android:textSize="20dp"
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:text="Amt :"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/COLOR_WHITE" />
+
+                    <TextView android:textSize="20dp"
+                        android:id="@+id/tv_amt_unclaims_joblist_adapter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:text="$25 + $25 = $50"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/COLOR_WHITE" />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView android:textSize="20dp"
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="Unclaims Jobs :"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/COLOR_WHITE" />
+
+                    <TextView android:textSize="20dp"
+                        android:id="@+id/tvunclaims_job_unclaims_joblist_adapter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:text="121"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/COLOR_WHITE" />
+                </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <TextView android:textSize="20dp"
+                        android:id="@+id/tv_status_fragment_billing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="4"
+                        android:text="Show"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/COLOR_WHITE" />
+
+                    <TextView android:textSize="20dp"
+                        android:id="@+id/tvshowte_unclaims_joblist_adapter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:text="This grp reach late"
+                        android:textAppearance="?android:attr/textAppearanceSmall"
+                        android:textColor="@color/COLOR_WHITE" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/ck_job_unclaims_joblist_adapter"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="10dp"
+                android:background="@drawable/custom_checkbox"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/COLOR_GREEN_ITEM"></View>
+
+</LinearLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LLRootChildListViewiOP"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/COLOR_BLUE"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_itemview"
+        android:layout_margin="10dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/tvDate_ToDoFragment"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:padding="5dp"
+                android:text="25/06/2014"
+                android:textSize="20sp"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTime_ToDoFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="0:00PM"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvPax_ToDoFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="PAX"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvType_ToDoFragment"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="APR"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvFlight_ToDoFragment"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:text="CRUISE"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tvPicupTime_ToDoFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PickupTime"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/tvHotel_ToDoFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hotel"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:gravity="center_vertical"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/COLOR_GREEN_ITEM"></View>
+</LinearLayout>

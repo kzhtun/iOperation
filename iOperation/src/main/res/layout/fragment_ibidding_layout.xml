@@ -1,0 +1,502 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/COLOR_BLUE_BG">
+
+    <LinearLayout
+        android:id="@+id/llTop_iBiddingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/ButtonShortcutiOpJobAssignments"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Job Assignments"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/ButtonShortcutiOpJobBidding"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="iBidding"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/ButtonShortcutiOpFeedback"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Feedback"
+                    android:textSize="14sp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/ButtonShortcutiOpServerInfo"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="server connected"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:visibility="visible"
+            android:weightSum="10">
+
+            <EditText
+                android:id="@+id/editTextiBiddingSearch"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="6"
+                android:background="@drawable/rounded_searchview"
+                android:drawableLeft="@drawable/ic_search"
+                android:drawableRight="@drawable/ic_cancle"
+                android:enabled="true"
+                android:focusable="true"
+                android:hint="@string/ioperation_search"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:padding="5dp"
+                android:textSize="12sp">
+
+                <requestFocus />
+            </EditText>
+
+
+            <EditText
+                android:id="@+id/etDate_iBiddingFragment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:drawableRight="@drawable/ic_cancle"
+                android:background="@drawable/rounded_edittext"
+                android:cursorVisible="false"
+                android:inputType="none"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:padding="6dp"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:id="@+id/ivCalender_iBiddingFragment"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_calender"
+                android:padding="5dp" />
+
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="4"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<Button-->
+            <!--android:id="@+id/buttonSearchiOperation"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Search"-->
+            <!--android:textSize="14sp" />-->
+
+
+            <!--</LinearLayout>-->
+        </LinearLayout>
+
+        <!--<HorizontalScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="5dp"-->
+        <!--android:scrollbars="none">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:visibility="visible">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_weight="6"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<EditText-->
+        <!--android:id="@+id/editTextiBiddingSearch"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/header_model8"-->
+        <!--android:focusable="true"-->
+        <!--android:hint="@string/ioperation_search_hint_list"-->
+        <!--android:padding="10dp"-->
+        <!--android:textSize="12sp">-->
+
+        <!--<requestFocus />-->
+        <!--</EditText>-->
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_weight="4"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<Button-->
+        <!--android:id="@+id/buttoniBiddingSearch"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Search"-->
+        <!--android:textSize="14sp" />-->
+
+        <!--<Spinner-->
+        <!--android:id="@+id/spinneriBidding"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:prompt="@string/ioperation_choose_list"-->
+        <!--android:visibility="visible" />-->
+
+        <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+        <!--</HorizontalScrollView>-->
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textViewiOperationInfoHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="TextView"
+                android:textColor="@color/COLOR_BLACK"
+                android:textStyle="bold" />
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/COLOR_BLUE"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:text="I-Bidding:"
+                android:textColor="@color/COLOR_WHITE"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinneriBidding"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="#51c8fc"
+                android:gravity="center_vertical"
+                android:prompt="@string/ioperation_choose_list"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btHome_iBiddingFragment"
+                android:layout_width="90dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/roundededgebox_buttongreen"
+                android:text="HOME"
+                android:textColor="@color/COLOR_BLACK"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <include
+                android:id="@+id/notification"
+                layout="@layout/notification_count" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                        <Button
+                            android:id="@+id/buttonBidAccepted"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Accept"
+                            android:textSize="14sp" />
+
+                        <Button
+                            android:id="@+id/buttonBidRejected"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Reject"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/hlBottom_iBiddingFragment"
+        android:layout_below="@+id/llTop_iBiddingFragment"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/LLNoDataAssigment_iBiddingFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llTop_ToDoFragment"
+            android:background="@drawable/header_model_no_data_found"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:text="@string/no_data_found"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/LLNoDataAssigment_iBiddingFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/llTop_ToDoFragment"
+            android:background="@drawable/header_model_no_data_found"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/TextViewDialogCountDownIdle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:gravity="center"
+                android:text="@string/no_data_found"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listView_iBiddingFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:divider="@null"
+            android:dividerHeight="0dip"
+            android:drawSelectorOnTop="true"
+            android:focusable="true"
+            android:visibility="visible"></ListView>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LLRootLoading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#88777777"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/roundededgebox2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Loading"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/hlBottom_iBiddingFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/COLOR_LIGHT_BLUE"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <!--<Button-->
+                        <!--android:id="@+id/ButtoniBidFirst"-->
+                        <!--android:layout_width="125dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/iop_first" />-->
+
+                    <Button
+                        android:id="@+id/ButtoniBidPrevious"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iop_previous" />
+
+                    <EditText
+                        android:id="@+id/editTextiBidPage"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/header_model8"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp" />
+
+                    <Button
+                        android:id="@+id/ButtoniBidGo"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iop_go" />
+
+
+                    <Button
+                        android:id="@+id/ButtoniBidNext"
+                        android:layout_width="125dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/iop_next" />
+
+                    <!--<Button-->
+                        <!--android:id="@+id/ButtoniBidLast"-->
+                        <!--android:layout_width="125dp"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/iop_last" />-->
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/LLRootLoading_iBiddingFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="#88777777"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/roundededgebox2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Loading"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

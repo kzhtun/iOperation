@@ -1,0 +1,591 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/COLOR_BLUE_BG">
+
+    <LinearLayout
+        android:id="@+id/llTOp_iOperationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/ButtonShortcutiOpJobAssignments"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Job Assignments"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/ButtonShortcutiOpJobBidding"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="iBidding"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/ButtonShortcutiOpFeedback"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Feedback"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/ButtonShortcutiOpServerInfo"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="server connected"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!--<HorizontalScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="5dp"-->
+        <!--android:scrollbars="none">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:visibility="visible"
+            android:weightSum="10">
+
+            <EditText
+                android:id="@+id/edtfromdate_fragment_billing"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="6"
+                android:background="@drawable/rounded_searchview"
+                android:drawableRight="@drawable/ic_cancle"
+                android:enabled="true"
+                android:focusable="true"
+                android:hint="@string/ioperation_from"
+                android:padding="5dp"
+                android:singleLine="true"
+                android:textSize="12sp">
+
+                <requestFocus />
+            </EditText>
+
+            <ImageView
+                android:id="@+id/ivCalender_from_iOperation"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/ic_calender"
+                android:padding="5dp" />
+
+
+
+            <EditText
+                android:id="@+id/edttodate_billing_fragment"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="4"
+                android:background="@drawable/rounded_searchview"
+                android:drawableRight="@drawable/ic_cancle"
+                android:enabled="true"
+
+                android:hint="@string/ioperation_to"
+                android:padding="5dp"
+
+                android:singleLine="true"
+
+                android:textSize="12sp">>
+
+                <requestFocus />
+            </EditText>
+
+
+            <ImageView
+                android:id="@+id/ivCalender_to_iOperation"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/ic_calender"
+                android:padding="5dp" />
+
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="4"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<Button-->
+            <!--android:id="@+id/buttonSearchiOperation"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Search"-->
+            <!--android:textSize="14sp" />-->
+
+
+            <!--</LinearLayout>-->
+        </LinearLayout>
+        <!--</HorizontalScrollView>-->
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textViewiOperationInfoHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="TextView"
+                android:textColor="@color/COLOR_BLACK"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </HorizontalScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@color/COLOR_BLUE"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:text="Claim Status :"
+                android:textColor="@color/COLOR_WHITE"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/spnStatusBillingListing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/spinner_border_shape"
+                android:layout_weight="1"
+                android:entries="@array/claimed_list" />
+
+            <include
+                android:id="@+id/notification"
+                layout="@layout/notification_count" />
+
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:id="@+id/hlBottom_iOperationFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/COLOR_BLUE"
+
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/COLOR_BLUE"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+
+
+                <Button
+                    android:id="@+id/btn_unclaims_billingFragment"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="105dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/roundededgebox_buttongreen_sec"
+
+
+                    android:text="unClaims (0)"
+                    android:textColor="@color/COLOR_BLACK"
+
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btlisting_billingFragment"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="105dp"
+                    android:layout_height="35dp"
+
+                    android:layout_marginRight="10dp"
+
+                    android:background="@drawable/roundededgebox_buttongreen_sec"
+                    android:text="Listing"
+                    android:textColor="@color/COLOR_BLACK"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/btnhome_billingFragment"
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="105dp"
+                    android:layout_height="35dp"
+
+                    android:layout_marginRight="10dp"
+
+                    android:background="@drawable/roundededgebox_buttongreen_sec"
+                    android:text="Home"
+                    android:textColor="@color/COLOR_BLACK"
+                    android:textStyle="bold" />
+
+
+                <Button
+                    android:id="@+id/btnsearch_billingFragment"
+                    android:layout_width="105dp"
+                    android:layout_height="35dp"
+                    android:layout_marginRight="10dp"
+
+                    android:background="@drawable/roundededgebox_buttongreen"
+                    android:text="Search"
+                    android:textColor="@color/COLOR_BLACK"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/hlBottom_iOperationFragment"
+        android:layout_below="@+id/llTOp_iOperationFragment"
+
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lstv_listing"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/hlBottom_iOperationFragment"
+            android:clickable="true"
+            android:divider="@null"
+            android:dividerHeight="0dip"
+            android:drawSelectorOnTop="true"
+            android:focusable="true" />
+
+        <TextView
+            android:text="dfdf"
+            android:gravity="center"
+
+            android:textSize="35dp"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tvemtyview"/>
+
+
+        <HorizontalScrollView
+            android:id="@+id/hlBottom_iOperationFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:fillViewport="true"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:id="@+id/hlBottom_ToDoFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99005B93"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+
+
+                    <TextView
+                        android:id="@+id/tv_pending_claims_listing"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+
+                        android:padding="5dp"
+                        android:text="Pending Claims: 2"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_pending_amt_listing"
+                        android:layout_width="0dp"
+
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="8dp"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:padding="5dp"
+                        android:text="Pending $: 10"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:textSize="14sp" />
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:id="@+id/tv_partial_claims_listing"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="5dp"
+                            android:text="Partial Claims: 1"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/COLOR_WHITE"
+                            android:textSize="14sp" />
+
+
+                        <TextView
+                            android:id="@+id/tv_approved_listing"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:padding="5dp"
+                            android:text="Approved Claims: 5"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/COLOR_WHITE"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_partial_claims_amt_listing"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="1"
+                            android:gravity="start"
+                            android:padding="5dp"
+                            android:text="Partial $: 100"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/COLOR_WHITE"
+                            android:textSize="14sp" />
+
+
+                        <TextView
+                            android:id="@+id/tv_approve_amt_listing"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginRight="8dp"
+                            android:layout_weight="1"
+                            android:gravity="start"
+                            android:padding="5dp"
+                            android:text="Approved $: 100"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:textColor="@color/COLOR_WHITE"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LLRootLoading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#88777777"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/roundededgebox2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Loading"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/hlBottom_iOperationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/COLOR_LIGHT_BLUE"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/hlBottom_ToDoFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/ButtoniOpPrevious"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/iop_previous" />
+
+                <EditText
+                    android:id="@+id/editTextiOpPage"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/header_model8"
+                    android:gravity="center"
+                    android:hint="1 of 1"
+                    android:inputType="number" />
+
+
+                <Button
+                    android:id="@+id/ButtoniOpGo"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/iop_go" />
+
+                <Button
+                    android:id="@+id/ButtoniOpNext"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iop_next" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/LLRootLoading_iOperationFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="#88777777"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/roundededgebox2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Loading"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

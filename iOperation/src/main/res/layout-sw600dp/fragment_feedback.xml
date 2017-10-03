@@ -1,0 +1,126 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/COLOR_BLUE_BG"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/ButtonShortcutiOpJobAssignments"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textSize="16sp"
+                android:text="Job Assignments"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/ButtonShortcutiOpJobBidding"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:text="iBidding"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/ButtonShortcutiOpFeedback"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textSize="16sp"
+                android:text="Feedback"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/ButtonShortcutiOpServerInfo"
+                android:layout_width="250dp"
+                android:layout_height="55dp"
+                android:textSize="20sp"
+                android:text="server connected" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:textSize="20sp"
+                android:text="@string/ioperation_reference_job_no"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner
+                android:id="@+id/spinnerFeedbackReferenceJobNo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/editTextFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="270dp"
+            android:background="@drawable/roundededgebox_feedback"
+            android:ems="10"
+            android:focusable="true"
+            android:gravity="top"
+            android:textSize="20sp"
+            android:hint="@string/ioperation_feedback_prompt"
+            android:inputType="textMultiLine"
+            android:padding="15dp">
+
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/buttonFeedBackSend"
+                android:layout_width="220dp"
+                android:layout_height="55dp"
+                android:layout_marginRight="10dp"
+                android:textSize="20sp"
+                android:text="Send" />
+
+            <Button
+                android:id="@+id/buttonFeedbackClear"
+                android:layout_width="220dp"
+                android:layout_height="55dp"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:text="Clear" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

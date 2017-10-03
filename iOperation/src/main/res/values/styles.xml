@@ -1,0 +1,144 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/PrimaryColor</item>
+        <item name="android:colorPrimaryDark">@color/PrimaryDarkColor</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Application theme. -->
+    <!--<style name="AppTheme" parent="AppBaseTheme">-->
+        <!--&lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
+    <!--</style>-->
+    <!-- -->
+    
+    
+    <style name="headerText480dp1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:width">35dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="headerText480dp2">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:width">15dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+     <style name="Text480dp1">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:width">35dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Text480dp2">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:width">15dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    
+    
+    
+    
+    <style name="headerText600dp1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:width">50dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    <style name="headerText600dpIconia">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:width">46dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="headerText600dp2">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:width">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+     <style name="Text600dp1">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:width">50dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+     <style name="Text600dpiconia">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:width">46dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+     
+    <style name="Text600dp2">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:width">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+   
+     <style name="headerText7inchdp1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:width">54dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="headerText7inchdp2">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:width">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+     <style name="Text7inchdp1">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:width">54dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Text7inchdp2">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:width">20dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    
+    
+    <style name="TextNoShow600dp1">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    
+    
+
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="850dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/roundededgeboxdialog"
+        android:padding="15dp">
+
+        <!-- android:inputType="textMultiLine" -->
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignWithParentIfMissing="false"
+            android:layout_centerInParent="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/LLJobDetailContainer"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/imageViewShowPhoto"
+                        android:layout_width="350dp"
+                        android:layout_height="350dp"
+                        android:scaleType="fitCenter" />
+
+                    <LinearLayout
+                        android:id="@+id/LLJobDetailButtonContainer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:weightSum="2">
+
+                        <Button
+                            android:id="@+id/ButtonDialogOKToContinue"
+                            android:layout_width="0dp"
+                            android:layout_height="40dip"
+                            android:layout_marginBottom="3dip"
+                            android:layout_marginRight="10dip"
+                            android:layout_marginTop="10dip"
+                            android:layout_weight="1"
+                            android:background="@drawable/action_button_empty_cream"
+                            android:text="Retake Photo"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/ButtonDialogPhotoClose"
+                            android:layout_width="0dp"
+                            android:layout_height="40dip"
+                            android:layout_marginBottom="3dip"
+                            android:layout_marginTop="10dip"
+                            android:layout_weight="1"
+                            android:background="@drawable/action_button_empty_cream"
+                            android:text="Close"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>

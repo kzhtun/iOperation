@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/iOp_KSoap_Lib/iOp_KSoap_Lib.iml" filepath="$PROJECT_DIR$/iOp_KSoap_Lib/iOp_KSoap_Lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iOperation/iOperation.iml" filepath="$PROJECT_DIR$/iOperation/iOperation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/iOperation Android Studio.iml" filepath="$PROJECT_DIR$/iOperation Android Studio.iml" />
+    </modules>
+  </component>
+</project>

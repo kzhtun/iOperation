@@ -1,0 +1,59 @@
+-injars 'D:\INFO121\iOperation\iOperation Android Studio\iOperation\libs\acra-4.5.0.jar'
+-injars 'D:\INFO121\iOperation\iOperation Android Studio\iOperation\libs\android-viewbadger.jar'
+-injars 'D:\INFO121\iOperation\iOperation Android Studio\iOperation\libs\commons-net-2.0-ftp.jar'
+-injars 'D:\INFO121\iOperation\iOperation Android Studio\iOperation\libs\gcm.jar'
+-injars 'D:\INFO121\iOperation\iOperation Android Studio\iOperation\libs\littlefluffylocationlibrary_r11.jar'
+-injars 'D:\INFO121\iOperation\iOperation Android Studio\iOperation\libs\simpleftp.jar'
+-injars 'D:\INFO121\iOperation\iOperation Android Studio\iOp_KSoap_Lib\libs\kxml2-2.3.0.jar'
+-injars 'C:\Users\KZHTUN\.gradle\caches\transforms-1\files-1.1\design-22.2.1.aar\a09b7316cdd70f2940e53b1d8917e366\jars\classes.jar'
+-injars 'C:\Users\KZHTUN\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-22.2.1.aar\a5cb9fb64d2a8324ef47312a3b357cc1\jars\classes.jar'
+-injars 'C:\Users\KZHTUN\.gradle\caches\transforms-1\files-1.1\appcompat-v7-22.2.1.aar\b8d308d8c344e43abc36dfa2314a35c2\jars\classes.jar'
+-injars 'C:\Users\KZHTUN\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\ea4c2aa0d59c302fcd3e37a7c4133a22\jars\classes.jar'
+-injars 'C:\Users\KZHTUN\.gradle\caches\transforms-1\files-1.1\support-v4-22.2.1.aar\ea4c2aa0d59c302fcd3e37a7c4133a22\jars\libs\internal_impl-22.2.1.jar'
+-injars 'C:\Users\KZHTUN\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\b0f07c14dbe8bcdede30de96f0941c60\jars\classes.jar'
+-injars 'C:\Users\KZHTUN\.gradle\caches\transforms-1\files-1.1\library-2.4.1.aar\d3d23492fee829c9d67d4854b9b86e6a\jars\classes.jar'
+-injars 'C:\Users\KZHTUN\.gradle\caches\transforms-1\files-1.1\circleimageview-2.0.0.aar\3d41bd2637434e26e4927626f1fa2cab\jars\classes.jar'
+-injars 'D:\Android\SDK\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar'
+-injars 'D:\INFO121\iOperation\iOperation Android Studio\iOp_KSoap_Lib\build\intermediates\intermediate-jars\debug\classes.jar'
+-injars 'D:\INFO121\iOperation\iOperation Android Studio\iOperation\build\intermediates\classes\debug'
+-outjars 'D:\INFO121\iOperation\iOperation Android Studio\iOperation\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\Android\SDK\build-tools\26.0.1\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration 'D:\INFO121\iOperation\iOperation Android Studio\iOperation\build\intermediates\multi-dex\debug\components.flags'
+
+
+# Referenced at D:\INFO121\iOperation\iOperation Android Studio\iOperation\build\intermediates\manifests\full\debug\AndroidManifest.xml:52
+-keep class com.info121.ioperation.RootApplication {
+    <init>(...);
+}
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.ir.** {
+    <fields>;
+    <methods>;
+}

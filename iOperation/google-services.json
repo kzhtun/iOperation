@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "519436474621",
+    "firebase_url": "https://iops-489fa.firebaseio.com",
+    "project_id": "iops-489fa",
+    "storage_bucket": "iops-489fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:519436474621:android:64000a1835f0011e",
+        "android_client_info": {
+          "package_name": "com.info121.ioperation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "519436474621-9biicv5sqcqj4tqh3lqg5jm7gkv1hgvq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlaE1GZGaNw-IzzjtlcOBtLkHSqI9z5Es"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

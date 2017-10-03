@@ -1,0 +1,449 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/COLOR_BLUE_BG">
+
+    <LinearLayout
+        android:id="@+id/llTOp_iOperationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/ButtonShortcutiOpJobAssignments"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:text="Job Assignments"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/ButtonShortcutiOpJobBidding"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="iBidding"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/ButtonShortcutiOpFeedback"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Feedback"
+                    android:textSize="14sp" />
+
+                <Button
+                    android:id="@+id/ButtonShortcutiOpServerInfo"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:text="server connected"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <!--<HorizontalScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:padding="5dp"-->
+        <!--android:scrollbars="none">-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp"
+            android:weightSum="10"
+            android:visibility="visible"
+            >
+
+            <EditText
+                android:id="@+id/editTextiOperationSearch"
+                android:layout_width="0dp"
+                android:layout_weight="6"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_searchview"
+                android:drawableLeft="@drawable/ic_search"
+                android:drawableRight="@drawable/ic_cancle"
+                android:enabled="true"
+                android:focusable="true"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:hint="@string/ioperation_search"
+                android:padding="7dp"
+                android:textSize="20sp">
+
+                <requestFocus />
+            </EditText>
+
+
+
+            <EditText
+                android:id="@+id/etDate_iOperatinFragment"
+                android:layout_width="0dp"
+                android:layout_weight="4"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:background="@drawable/rounded_edittext"
+                android:cursorVisible="false"
+                android:inputType="none"
+                android:singleLine="true"
+                android:maxLines="1"
+                android:drawableRight="@drawable/ic_cancle"
+                android:padding="7dp"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/ivCalender_iOperation"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/ic_calender"
+                android:padding="5dp" />
+
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_weight="4"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<Button-->
+            <!--android:id="@+id/buttonSearchiOperation"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Search"-->
+            <!--android:textSize="14sp" />-->
+
+
+            <!--</LinearLayout>-->
+        </LinearLayout>
+        <!--</HorizontalScrollView>-->
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/textViewiOperationInfoHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="TextView"
+                android:textColor="@color/COLOR_BLACK"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/COLOR_BLUE"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical"
+                android:text="My Jobs:"
+                android:textColor="@color/COLOR_WHITE"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/spinneriOperation"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:background="#51c8fc"
+                android:gravity="center_vertical"
+                android:prompt="@string/ioperation_choose_list"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/btHome_iOperationFragment"
+                android:layout_width="120dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/roundededgebox_buttongreen"
+                android:text="HOME"
+                android:textColor="@color/COLOR_BLACK"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:gravity="right"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true">
+
+                        <Button
+                            android:id="@+id/ButtonJobReassign"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/buttonJobAccepted"
+                            android:text="@string/ioperation_reassign" />
+
+                        <Button
+                            android:id="@+id/buttonJobAccepted"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toLeftOf="@+id/buttonJobRejected"
+                            android:text="@string/ioperation_accept"
+                            android:visibility="gone" />
+
+                        <Button
+                            android:id="@+id/buttonJobRejected"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/ioperation_reject"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/LLNoDataAssigment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/header_model_no_data_found"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/TextViewDialogCountDownIdle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="30dp"
+                        android:text="@string/no_data_found"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/hlBottom_iOperationFragment"
+        android:layout_below="@+id/llTOp_iOperationFragment"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/LLNoDataAssigment_ToDoFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/header_model_no_data_found"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/TextViewDialogCountDownIdle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="30dp"
+                android:text="@string/no_data_found"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listViewiOperation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:divider="@null"
+            android:dividerHeight="0dip"
+            android:drawSelectorOnTop="true"
+            android:focusable="true"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LLRootLoading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#88777777"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/roundededgebox2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Loading"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:id="@+id/hlBottom_iOperationFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/COLOR_LIGHT_BLUE"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/hlBottom_ToDoFragment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!--<Button-->
+                <!--android:id="@+id/ButtoniOpFirst"-->
+                <!--android:layout_width="125dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="@string/iop_first" />-->
+
+                <Button
+                    android:id="@+id/ButtoniOpPrevious"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/iop_previous" />
+
+                <EditText
+                    android:id="@+id/editTextiOpPage"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/header_model8"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp" />
+
+                <Button
+                    android:id="@+id/ButtoniOpGo"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/iop_go" />
+
+                <Button
+                    android:id="@+id/ButtoniOpNext"
+                    android:layout_width="125dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iop_next" />
+
+                <!--<Button-->
+                <!--android:id="@+id/ButtoniOpLast"-->
+                <!--android:layout_width="125dp"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/iop_last" />-->
+
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/LLRootLoading_iOperationFragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="#88777777"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/roundededgebox2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Loading"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

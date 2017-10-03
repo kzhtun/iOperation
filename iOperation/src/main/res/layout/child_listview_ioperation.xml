@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LLRootChildListViewiOP"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lliOperationHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:text="Book No" />
+                </LinearLayout>
+
+
+                <LinearLayout
+
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:text="Job No" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:text="Date" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+
+                        android:text="Type" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Guest" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:gravity="center"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/Text600dp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="A" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:gravity="center"
+                    android:padding="5dp">
+
+                    <TextView
+
+                        style="@style/Text600dp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="C" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:gravity="center"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/Text600dp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+
+                        android:text="I" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Flight" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Flight Time" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Picup Time" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp"
+                    android:visibility="visible">
+
+                    <TextView
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Hotel" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="TPT Remarks" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Booking Remarks" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Arr/Dep" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Agent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp"
+                    android:visibility="visible">
+
+                    <TextView
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Select" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:gravity="center"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/Text600dpiconia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Status" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Serve" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:id="@+id/LLChildBookNo"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPBookNo"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="BK0122717" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/LLChild1"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild1"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="12798" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild2"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild2"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="25/06/2014" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild3"
+                    android:layout_width="50dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild3"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="APR" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild4"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild4"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="MR. Mehul Kumar Patel" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild5"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild5"
+                        style="@style/Text600dp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild6"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild6"
+                        style="@style/Text600dp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild7"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild7"
+                        style="@style/Text600dp2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="0" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild8"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:gravity="center"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild8"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="CRUISE" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild9"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:gravity="center"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild9"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="TIME" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild10"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild10"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="0:00PM" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild11"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild11"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="ROYAL KITCHNER" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild12"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild12"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="PVT" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild13"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild13"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="PU0330H" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild14"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild14"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="00/00/2014" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild15"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild15"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="TextView" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild16"
+                    android:layout_width="130dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp"
+                    android:visibility="visible">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild16"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="VOYEGES AND VOCATIONALS (INDIA PVT LTD) REPAID" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild17"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:gravity="center"
+                    android:padding="5dp">
+
+                    <CheckBox
+                        android:id="@+id/checkButtoniOPSelect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:focusable="false" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild18"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <TextView
+                        android:id="@+id/TextViewiOPChild18"
+                        style="@style/Text600dpiconia"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Job Assigned" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild19"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/buttonReassign"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clickable="false"
+                        android:focusable="false" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLChild20"
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:background="@drawable/header_model7"
+                    android:padding="5dp">
+
+                    <Button
+                        android:id="@+id/ButtonServe"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:focusable="false"
+                        android:focusableInTouchMode="false" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

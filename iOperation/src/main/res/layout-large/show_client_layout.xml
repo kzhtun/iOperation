@@ -1,0 +1,205 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:gravity="left"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/TextViewDialogCountDownIdle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Welcome "
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <com.info121.ioperation.util.AutoFitTextViewShow
+                    android:id="@+id/TextViewShowPassengerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome"
+                    android:textColor="@color/COLOR_DARKER_LIGHT_BLUE"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/black" />
+
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="15dp"
+                android:text="Signature"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LLShowSignature"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/LLTextinfoSign"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#555555"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="put your signature here"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textStyle="italic" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/black" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:id="@+id/TextView02"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="15dp"
+                        android:layout_weight="1"
+                        android:text="Take Picture"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2">
+
+                        <ImageView
+                            android:id="@+id/ivShowCameraPic"
+                            android:layout_width="240dp"
+                            android:layout_height="140dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/camera_icon"
+                            android:scaleType="centerCrop" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:paddingLeft="20dp"
+                    android:text="Remark"
+                    android:textColor="@color/COLOR_BLACK"
+                    android:textSize="22sp" />
+
+                <EditText
+                    android:id="@+id/editTextShowAcknowledgement"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+                    android:layout_margin="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/roundededgebox_feedback"
+                    android:ems="10"
+                    android:padding="20dp"
+                    android:textSize="22sp">
+
+                    <requestFocus />
+                </EditText>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:weightSum="10">
+
+                    <Button
+                        android:id="@+id/buttonBack_ShowActivity"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_weight="5"
+                        android:text="Back"
+                        android:textSize="22sp" />
+
+                    <Button
+                        android:id="@+id/buttonShowContinue"
+                        android:layout_width="0dp"
+                        android:layout_height="60dp"
+                        android:layout_weight="5"
+                        android:text="Confirm"
+                        android:textSize="22sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

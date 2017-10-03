@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:background="@color/COLOR_LIGHTBLUE"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/ic_user"
+        app:civ_border_width="3dp"
+        app:civ_border_color="#FFFFFF"
+         />
+
+    <TextView
+        android:id="@+id/usernameHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/email"
+        android:layout_alignLeft="@+id/profile_image"
+        android:layout_alignStart="@+id/profile_image"
+        android:gravity="left"
+        android:paddingBottom="8dp"
+        android:text="Archirayan"
+        android:textColor="#FFF"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/username"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/username"
+        android:layout_marginBottom="12dp"
+        android:gravity="left"
+        android:text="archirayan33@gmail.com"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+</RelativeLayout>

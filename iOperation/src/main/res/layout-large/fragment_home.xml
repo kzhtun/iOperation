@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/COLOR_BLUE_BG"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="25dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/tvBidCount_HomeFragment"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:background="@drawable/roundededgebox_buttongreen"
+                    android:textColor="@color/COLOR_WHITE"/>
+
+
+                <!--<Button-->
+                    <!--android:id="@+id/btIncomming_chooseTask"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:background="@drawable/roundededgebox_buttongreen"-->
+                    <!--android:padding="15dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:text="Incomming"-->
+                    <!--android:textColor="@color/COLOR_WHITE"-->
+                    <!--android:textSize="20sp" />-->
+                <Button
+                    android:id="@+id/btCalender_chooseTask"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="15dp"
+                    android:background="@drawable/roundededgebox_buttongreen"
+                    android:text="Calender"
+                    android:textColor="@color/COLOR_WHITE"
+                    android:textSize="20sp" />
+
+
+                <Button
+                    android:id="@+id/btViewJobs_chooseTask"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="15dp"
+                    android:background="@drawable/roundededgebox_buttongreen"
+                    android:text="View Jobs"
+                    android:textColor="@color/COLOR_WHITE"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_margin="25dp"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/tvJobCount_HomeFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:text="0"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:background="@drawable/roundededgebox_buttongreen"
+                    android:textColor="@color/COLOR_WHITE"/>
+
+                <!--<Button-->
+                    <!--android:id="@+id/btToDo_chooseTask"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_marginRight="5dp"-->
+                    <!--android:layout_marginTop="10dp"-->
+                    <!--android:padding="15dp"-->
+                    <!--android:background="@drawable/roundededgebox_buttongreen"-->
+                    <!--android:text="To Do"-->
+                    <!--android:textColor="@color/COLOR_WHITE"-->
+                    <!--android:textSize="20sp" />-->
+                <Button
+                    android:id="@+id/btBilling_chooseTask"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/roundededgebox_buttongreen"
+                    android:text="Billing"
+                    android:textColor="@color/COLOR_WHITE"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btExit_chooseTask"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:padding="15dp"
+                    android:background="@drawable/roundededgebox_buttongreen"
+                    android:text="Exit"
+                    android:textColor="@color/COLOR_WHITE"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

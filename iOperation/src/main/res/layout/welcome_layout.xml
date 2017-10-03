@@ -1,0 +1,709 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/COLOR_BLUE_BG"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/llTopLayout_WelcomeActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="My Jobs"
+                android:textColor="@color/COLOR_WHITE"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btListing_WelcomeActivity"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:background="@drawable/roundededgebox_buttongreen"
+                android:text="LISTING"
+                android:textColor="@color/COLOR_BLACK"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btHome_WelcomeActivity"
+                android:layout_width="80dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/roundededgebox_buttongreen"
+                android:text="HOME"
+                android:textColor="@color/COLOR_BLACK"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Date: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvDateTime_WelcomeActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Guest:"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvContact_WelcomeActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:maxLines="2"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Adults: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvAdult_WelcomeActivity"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Child: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvChild_WelcomeActivity"
+                        android:layout_width="30dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btReassign_WelcomeActivity"
+                            android:layout_width="80dp"
+                            android:layout_height="30dp"
+                            android:padding="2dp"
+                            android:text="RE ASSIGN"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btReject_WelcomeActivity"
+                            android:layout_width="80dp"
+                            android:layout_height="30dp"
+                            android:padding="2dp"
+                            android:text="REJECT"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/llBottom_WelcomeActivity"
+        android:layout_below="@+id/llTopLayout_WelcomeActivity"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/COLOR_BLUE"
+            android:paddingBottom="20dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Pickup: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvPickup_WelcomeActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Alight: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvAlight_WelcomeActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Hotel: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvHotel_WelcomeActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Flight: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvFlight_WelcomeActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Type: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvType_WelcomeActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Remarks: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvRemarks_WelcomeActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="TPT Note: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvtptNote_WelcomeActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Agent:"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvCustomer_WelcomeActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Phone: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvPhone_WelcomeActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Amount: "
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvAmount_WelcomeActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="2dp"
+                        android:text="Description:"
+                        android:textColor="@color/COLOR_GREEN_ITEM"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvDesc_WelcomeActivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/COLOR_WHITE"
+                        android:layout_marginLeft="90dp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:visibility="gone"
+                    android:background="@drawable/roundededgebox_buttongreen_sec"
+                    android:padding="3dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:weightSum="10"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:background="@color/COLOR_Extra_Charge"
+                        android:paddingBottom="1dp"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="4"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/COLOR_WHITE"
+                            android:text="@string/extra_charge"
+                            android:padding="5dp"
+                            android:gravity="center_vertical"
+                            />
+
+                        <EditText
+                            android:id="@+id/etClaimAmt_extraChargee"
+                            android:layout_width="0dp"
+                            android:layout_weight="6"
+                            android:layout_row="1"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:minWidth="5dp"
+                            android:text=""
+
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:singleLine="true"
+                            android:hint="@string/enter_your_extra_charge"
+                            android:background="@drawable/rounded_edittext"
+                            android:padding="5dp"/>
+
+
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:weightSum="10"
+                        android:background="@color/COLOR_Light"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="4"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:text="@string/remarks"
+                            android:padding="5dp"
+                            android:gravity="center_vertical"
+                            />
+
+                        <EditText
+                            android:id="@+id/etRemark_extraChargee"
+                            android:layout_width="0dp"
+                            android:layout_weight="6"
+                            android:layout_height="match_parent"
+                            android:textColor="@color/COLOR_BLACK"
+                            android:text=""
+                            android:hint="@string/enter_your_remark_here"
+                            android:background="@drawable/rounded_edittext"
+                            android:singleLine="true"
+                            android:inputType="text"
+                            android:gravity="center_vertical"
+                            android:padding="5dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <!--<TextView-->
+    <!--android:id="@+id/TextViewDialogCountDownIdle"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:text="Welcome"-->
+    <!--android:textSize="25sp"-->
+    <!--android:textStyle="bold" />-->
+
+    <!--<com.info121.ioperation.util.AutoFitTextView-->
+    <!--android:id="@+id/textViewWelcomeName"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginLeft="5dp"-->
+    <!--android:layout_marginRight="5dp"-->
+    <!--android:layout_marginTop="30dp"-->
+    <!--android:gravity="center"-->
+    <!--android:text=""-->
+    <!--android:textColor="@color/COLOR_RED"-->
+    <!--android:textStyle="bold" />-->
+    <LinearLayout
+        android:id="@+id/llBottom_WelcomeActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:background="@color/COLOR_BLUE"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="&lt;"
+                android:textColor="@color/COLOR_YELLOW"
+                android:layout_marginLeft="50dp"
+                android:textSize="40sp"/>
+
+            <TextView
+                android:id="@+id/tvPageNo_WelcomeActivity"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/COLOR_YELLOW"
+                android:textStyle="bold"
+                android:text="1/20"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:text="&gt;"
+                android:layout_marginRight="50dp"
+                android:textColor="@color/COLOR_YELLOW"
+                android:textSize="40sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <Button
+                android:id="@+id/buttonWelcome"
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="3"
+                android:text="@string/show" />
+
+            <Button
+                android:id="@+id/buttonNoSHow"
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="3"
+                android:text="@string/no_show" />
+
+            <Button
+                android:id="@+id/btSubmitClaims_WelcomFragment"
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="5dp"
+                android:visibility="gone"
+                android:layout_weight="4"
+                android:text="@string/submit_claim" />
+
+            <Button
+                android:id="@+id/btsignageClaims_WelcomFragment"
+                android:layout_width="0dp"
+                android:layout_height="65dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="4"
+                android:text="@string/signage" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LLRootLoading_WelcomeActivity"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="#88777777"
+        android:clickable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/roundededgebox2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/progressBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Loading"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

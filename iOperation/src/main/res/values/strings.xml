@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iOperation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="external_dir">GetSignature</string>
+
+    <string name="main_menu1">Change Password</string>
+    <string name="main_menu2">Job Assignments</string>
+    <string name="main_menu3">Job Bids</string>
+    <string name="main_menu4">Feed Back</string>
+    <string name="main_menu5">Log Out</string>
+
+    <string name="login_username">Username</string>
+    <string name="login_agentid">Tel No</string>
+    <string name="login_password">Password</string>
+    <string name="login_login">Login</string>
+    <string name="login_change_server">Change Server</string>
+    <string name="login_register">Register</string>
+    <string name="crash_toast_text">App Crash \n Please Send Mail</string>
+    <string name="login_forgot_password">Forgot Password</string>
+
+    <string name="Register_welcome">Welcome please fill up to register</string>
+    <string name="Register_submit">Submit</string>
+    <string name="Register_company">Company</string>
+    <string name="Register_confirm_paswword">Confirm Password</string>
+    <string name="Register_tnc"><u><b><i>I have Read &amp; Accept the Terms &amp; Conditions</i></b></u></string>
+    <string name="Register_tnc_close">Close</string>
+    <string name="Register_tnc_dummy_content">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?</string>
+
+    <string name="Register_suppliername">Supplier Name*</string>
+    <string name="Register_address">Address*</string>
+    <string name="Register_postalcode">Postal Code</string>
+    <string name="Register_countrycode">Country Code</string>
+    <string name="Register_citycode">City Code</string>
+    <string name="Register_state">State</string>
+    <string name="Register_contactperson1">Contact Person *</string>
+    <string name="Register_telephone_no_1">Tel. No. *</string>
+    <string name="Register_email_1">Email *</string>
+    <string name="Register_contactperson2">Contact Person </string>
+    <string name="Register_telephone_no_2">Tel. No. </string>
+    <string name="Register_email_2">Email </string>
+    <string name="Register_contactperson3">Contact Person </string>
+    <string name="Register_telephone_no_3">Tel. No. </string>
+    <string name="Register_email_3">Email </string>
+    <string name="Register_contactperson4">Contact Person </string>
+    <string name="Register_telephone_no_4">Tel. No. </string>
+    <string name="Register_email_4">Email </string>
+    <string name="Register_fax_no">Fax No.</string>
+
+    <string name="forgot_password_iopuser">iopuser</string>
+    <string name="forgot_password_telephone_number">Telephone No.</string>
+    <string name="forgot_password_old_password">Old Password</string>
+    <string name="forgot_password_new_password">New Password</string>
+    <string name="forgot_password_retype_password">Re Type Password</string>
+
+    <string name="task_ioperation">iOperation</string>
+    <string name="task_ibidding">iBidding</string>
+    <string name="task_feedback">Feedback</string>
+
+    <string name="ioperation_accept">Accept</string>
+    <string name="ioperation_reject">Reject</string>
+    <string name="ioperation_reassign">Re Assign</string>
+
+    <string name="ioperation_choose_list">Choose List</string>
+    <string name="ioperation_pending_list">Pending List</string>
+    <string name="ioperation_confirmed_list">Confirmed List</string>
+    <string name="ioperation_rejected_list">Rejected List</string>
+    <string name="ioperation_completed_list">Job Accepted</string>
+    <string name="ioperation_assigned_list">Job Assigned</string>
+    <string name="ioperation_search_hint_list">Search by Date, Customer Name, Booking #, Status</string>
+    <string name="ioperation_search">Search</string>
+    <string name="ioperation_from">From</string>
+    <string name="ioperation_to">To</string>
+    <string name="ioperation_filter1_job_assigned">Job Assigned</string>
+    <string name="ioperation_filter2_jobserve_confirm">Job Served - Confirm</string>
+    <string name="ioperation_filter3_jobserve_noshow">Job Served - No Show</string>
+    <string name="ioperation_filter4_jobsupplierrejected">Job Rejected</string>
+
+    <string name="ibidding_new_list">Bid New</string>
+    <string name="ibidding_completed_list">Bid Accepted</string>
+    <string name="ibidding_rejected_list">Bid Rejected</string>
+    <string name="ibidding_close_list">Bid Closed</string>
+
+    <string name="iop_first">First</string>
+    <string name="iop_previous">Previous</string>
+    <string name="billing_one_of_one">1 of 1</string>
+    <string name="iop_next">Next</string>
+    <string name="iop_last">Last</string>
+    <string name="iop_go">Go Page</string>
+
+    <string name="ioperation_feedback_prompt">Your message here . . .</string>
+    <string name="ioperation_reference_job_no">Reference Job No/Bid No</string>
+
+    <string name="no_show_reason">Reason for no show : </string>
+
+    <string name="error_config">Please set the %1$s constant and recompile the app.</string>
+    <string name="already_registered">Device is already registered on server.</string>
+    <string name="gcm_registered">From GCM: device successfully registered!</string>
+    <string name="gcm_unregistered">From GCM: device successfully unregistered!</string>
+    <string name="gcm_message">From GCM: you got message!</string>
+    <string name="gcm_error">From GCM: error (%1$s).</string>
+    <string name="gcm_recoverable_error">From GCM: recoverable error (%1$s).</string>
+    <string name="gcm_deleted">From GCM: server deleted %1$d pending messages!</string>
+    <string name="server_registering">Trying (attempt %1$d/%2$d) to register device on Demo Server.</string>
+    <string name="server_registered">From Demo Server: successfully added device!</string>
+    <string name="server_unregistered">From Demo Server: successfully removed device!</string>
+    <string name="server_register_error">Could not register device on Demo Server after %1$d attempts.</string>
+    <string name="server_unregister_error">Could not unregister device on Demo Server (%1$s).</string>
+    <string name="options_register">Register</string>
+    <string name="options_unregister">Unregister</string>
+    <string name="options_clear">Clear</string>
+    <string name="options_exit">Exit</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="home">Home</string>
+    <string name="todo">To Do</string>
+    <string name="calendar">Calendar</string>
+    <string name="incommings">Incomming</string>
+    <string name="billing">Billing</string>
+    <string name="view_jobs">View Jobs</string>
+    <string name="feedback">Feedback</string>
+    <string name="change_password">Change Password</string>
+    <string name="exit">Exit</string>
+
+
+    <string name="no_data_found">No Data Found</string>
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="extra_charge">Extra Charges $</string>
+    <string name="remarks">Remarks</string>
+    <string name="show">Welcome</string>
+    <string name="no_show">No Show</string>
+    <string name="submit_claim">Submit Claim</string>
+    <string name="enter_your_remark_here">Enter Your Remark Here</string>
+    <string name="enter_your_extra_charge">Enter Your Extra Charge Here</string>
+
+    <string-array name="unclaimed_list">
+        <item>UnClaims</item>
+        <item>Listing</item>
+    </string-array>
+
+    <string-array name="claimed_list">
+        <item>All Claims</item>
+        <item>Pending Claims</item>
+        <item>Partial Claims</item>
+        <item>Approved Claims</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="signage">Signage</string>
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="20dip"
+    android:layout_marginRight="20dip"
+    android:scrollbars="none" >
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dip"
+        android:background="@drawable/share_content_dialog_bg"
+        android:padding="15dp" >
+
+        <TextView
+            android:id="@+id/titleTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="IOPS Re-Assignment"
+            android:textColor="@color/COLOR_BLACK"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_below="@id/titleTv"
+            android:layout_marginLeft="1.5dip"
+            android:layout_marginRight="1.5dip"
+            android:background="#E9E4DA" />
+
+        <!-- android:inputType="textMultiLine" -->
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view1"
+            android:layout_margin="10dp"
+            android:text="Company : XYZ"
+            android:textColor="@color/COLOR_BLACK"
+            android:textSize="14dip"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/TvListContacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textview"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="List of contacts :"
+            android:textColor="@color/COLOR_BLACK"
+            android:textSize="15dip"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinnerListOfContacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TvListContacts" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinnerListOfContacts"
+            android:layout_centerHorizontal="true" >
+
+            <Button
+                android:id="@+id/okBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:layout_marginBottom="3dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/action_button_empty_cream"
+                android:text="ReAssign"
+                android:textColor="@color/COLOR_BLACK"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cancelBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:layout_marginBottom="3dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/action_button_empty_cream"
+                android:text="Cancel"
+                android:textColor="@color/COLOR_BLACK"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:checked="false"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/incomming"
+            android:checked="false"
+            android:title="@string/incommings" />
+
+        <item
+            android:id="@+id/todo"
+            android:checked="false"
+            android:title="@string/todo" />
+
+        <item
+            android:id="@+id/view_jobs"
+            android:checked="false"
+            android:title="@string/view_jobs" />
+
+        <item
+            android:id="@+id/calender"
+            android:checked="false"
+            android:title="@string/calendar" />
+
+
+        <item
+            android:id="@+id/billing"
+            android:checked="false"
+            android:title="@string/billing" />
+
+        <!--<item-->
+            <!--android:id="@+id/feedback"-->
+            <!--android:checked="false"-->
+            <!--android:title="@string/feedback" />-->
+        <!--<item-->
+            <!--android:id="@+id/change_password"-->
+            <!--android:checked="false"-->
+            <!--android:title="@string/change_password" />-->
+        <item
+            android:id="@+id/exit"
+            android:checked="false"
+            android:title="@string/exit" />
+
+    </group>
+</menu>
