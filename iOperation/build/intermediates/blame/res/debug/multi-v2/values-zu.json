@@ -4,7 +4,24 @@
             "outputFile": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zu\\values-zu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\306e271ea991c498accec39bebe424fb\\res\\values-zu\\values-zu.xml",
+                    "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.0.4.aar\\a220395748441e008b108db10b67704b\\res\\values-zu\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "190",
+                        "endOffsets": "475"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "1499",
+                        "endColumns": "190",
+                        "endOffsets": "1685"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\42dd5ef16b709efaff01c35ba1367390\\res\\values-zu\\values-zu.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,9 +32,9 @@
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,163,270,384,472,575,702,806,912,1010,1117,1223,1329",
+                        "startOffsets": "105,213,320,434,522,625,752,856,962,1060,1167,1273,1379",
                         "endColumns": "107,106,113,87,102,126,103,105,97,106,105,105,119",
-                        "endOffsets": "158,265,379,467,570,697,801,907,1005,1112,1218,1324,1444"
+                        "endOffsets": "208,315,429,517,620,747,851,957,1055,1162,1268,1374,1494"
                     }
                 }
             ]

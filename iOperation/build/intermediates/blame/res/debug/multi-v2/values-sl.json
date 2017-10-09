@@ -4,7 +4,7 @@
             "outputFile": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sl\\values-sl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\306e271ea991c498accec39bebe424fb\\res\\values-sl\\values-sl.xml",
+                    "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\42dd5ef16b709efaff01c35ba1367390\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -15,9 +15,26 @@
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,162,269,377,464,567,686,794,903,1003,1116,1223,1327",
+                        "startOffsets": "105,212,319,427,514,617,736,844,953,1053,1166,1273,1377",
                         "endColumns": "106,106,107,86,102,118,107,108,99,112,106,103,116",
-                        "endOffsets": "157,264,372,459,562,681,789,898,998,1111,1218,1322,1439"
+                        "endOffsets": "207,314,422,509,612,731,839,948,1048,1161,1268,1372,1489"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.0.4.aar\\a220395748441e008b108db10b67704b\\res\\values-sl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "285",
+                        "endColumns": "198",
+                        "endOffsets": "483"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "1494",
+                        "endColumns": "198",
+                        "endOffsets": "1688"
                     }
                 }
             ]

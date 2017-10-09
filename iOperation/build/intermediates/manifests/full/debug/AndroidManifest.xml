@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="14"
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.CAMERA" />
@@ -40,6 +40,16 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> -->
+
+
+    <!-- <permission -->
+    <!-- android:name="com.info121.ioperation.permission.C2D_MESSAGE" -->
+    <!-- android:protectionLevel="signature" /> -->
+
+
+    <!-- <uses-permission android:name="com.info121.ioperation.permission.C2D_MESSAGE" /> -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
@@ -47,23 +57,22 @@
         android:protectionLevel="signature" />
 
     <uses-permission android:name="com.info121.ioperation.permission.C2D_MESSAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name="com.info121.ioperation.RootApplication"
+        android:name="com.info121.ioperations.RootApplication"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.info121.ioperation.signature.CaptureSignatureActivity"
+            android:name="com.info121.ioperations.signature.CaptureSignatureActivity"
             android:label="@string/app_name" />
         <activity
-            android:name="com.info121.ioperation.signature.CaptureSignature"
+            android:name="com.info121.ioperations.signature.CaptureSignature"
             android:label="@string/app_name" />
         <activity
-            android:name="com.info121.ioperation.iOPLoginActivity"
+            android:name="com.info121.ioperations.iOPLoginActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -72,79 +81,172 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.info121.ioperation.iOPRegisterActivity"
+            android:name="com.info121.ioperations.iOPRegisterActivity"
             android:label="@string/app_name" />
         <activity
-            android:name="com.info121.ioperation.iOPForgotPasswordActivity"
+            android:name="com.info121.ioperations.iOPForgotPasswordActivity"
             android:label="@string/app_name" />
         <!-- <activity -->
         <!-- android:name=".ChooseTaskActivity" -->
         <!-- android:label="@string/app_name" /> -->
         <activity
-            android:name="com.info121.ioperation.iOpMainViewPagerActivity"
+            android:name="com.info121.ioperations.iOpMainViewPagerActivity"
             android:label="@string/app_name" />
 
-        <service android:name="com.littlefluffytoys.littlefluffylocationlibrary.LocationBroadcastService" />
+        <!-- <service android:name="com.littlefluffytoys.littlefluffylocationlibrary.LocationBroadcastService" /> -->
 
-        <receiver
-            android:name="com.littlefluffytoys.littlefluffylocationlibrary.StartupBroadcastReceiver"
-            android:exported="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
-        <receiver
-            android:name="com.littlefluffytoys.littlefluffylocationlibrary.PassiveLocationChangedReceiver"
-            android:exported="true" />
-        <receiver android:name="com.info121.ioperation.receiver.LocationBroadcastReceiver" >
-            <intent-filter>
-                <action
-                    android:name="com.info121.ioperation.littlefluffylocationlibrary.LOCATION_CHANGED"
-                    android:exported="false" />
-            </intent-filter>
-        </receiver>
+
+        <!-- <receiver -->
+        <!-- android:name="com.littlefluffytoys.littlefluffylocationlibrary.StartupBroadcastReceiver" -->
+        <!-- android:exported="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <!-- <receiver -->
+        <!-- android:name="com.littlefluffytoys.littlefluffylocationlibrary.PassiveLocationChangedReceiver" -->
+        <!-- android:exported="true" /> -->
+
+
+        <!-- <receiver android:name=".receiver.LocationBroadcastReceiver"> -->
+        <!-- <intent-filter> -->
+        <!-- <action -->
+        <!-- android:name="com.info121.ioperation.littlefluffylocationlibrary.LOCATION_CHANGED" -->
+        <!-- android:exported="false" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
 
         <activity
-            android:name="com.info121.ioperation.WelcomeIoperationActivity"
+            android:name="com.info121.ioperations.WelcomeIoperationActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.info121.ioperation.ShowClientActivity"
+            android:name="com.info121.ioperations.ShowClientActivity"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.info121.ioperation.NoShowClientActivity"
+            android:name="com.info121.ioperations.NoShowClientActivity"
             android:label="@string/app_name" />
         <activity
-            android:name="com.info121.ioperation.WelcomeIbidingActivity"
+            android:name="com.info121.ioperations.WelcomeIbidingActivity"
             android:screenOrientation="portrait" />
         <activity android:name="com.info121.SignaneActivity" />
 
-        <receiver
-            android:name="com.google.android.gcm.GCMBroadcastReceiver"
-            android:permission="com.google.android.c2dm.permission.SEND" >
-            <intent-filter>
+        <!-- <receiver -->
+        <!-- android:name="com.google.android.gcm.GCMBroadcastReceiver" -->
+        <!-- android:permission="com.google.android.c2dm.permission.SEND"> -->
+        <!-- <intent-filter> -->
 
-                <!-- Receives the actual messages. -->
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <!-- Receives the registration id. -->
-                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
 
-                <category android:name="com.info121.ioperation" />
-            </intent-filter>
-        </receiver>
+        <!-- &lt;!&ndash; Receives the actual messages. &ndash;&gt; -->
+        <!-- <action android:name="com.google.android.c2dm.intent.RECEIVE" /> -->
+        <!-- &lt;!&ndash; Receives the registration id. &ndash;&gt; -->
+        <!-- <action android:name="com.google.android.c2dm.intent.REGISTRATION" /> -->
 
-        <service android:name="com.info121.ioperation.GCMIntentService" />
+
+        <!-- <category android:name="com.info121.ioperation" /> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+
+
+        <!-- <service android:name=".GCMIntentService" /> -->
 
         <activity
-            android:name="com.info121.ioperation.MainActivity"
+            android:name="com.info121.ioperations.MainActivity"
             android:label="@string/title_activity_main"
             android:windowSoftInputMode="adjustPan" />
         <activity android:name="com.info121.SignaneActivity" />
+
+        <service android:name="com.info121.services.FirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.info121.services.FirebaseTokenService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
         <activity
             android:name="com.example.soaptest.MainActivity"
             android:label="@string/app_name" >
         </activity>
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.info121.ioperation" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.info121.ioperation.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
     </application>
 
 </manifest>

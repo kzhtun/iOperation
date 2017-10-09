@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.info121.ioperation"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.info121.ioperations"
     android:versionCode="1"
     android:versionName="1.0">
 
     <uses-sdk
         android:minSdkVersion="8"
-        android:targetSdkVersion="18" />
+        android:targetSdkVersion="18"
+        tools:overrideLibrary="com.google.android.gms.measurement,com.google.firebase.firebase_core,com.google.android.gms.tasks" />
 
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -40,30 +42,30 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
-    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <!--<uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />-->
 
-    <permission
-        android:name="com.info121.ioperation.permission.C2D_MESSAGE"
-        android:protectionLevel="signature" />
+    <!--<permission-->
+        <!--android:name="com.info121.ioperation.permission.C2D_MESSAGE"-->
+        <!--android:protectionLevel="signature" />-->
 
-    <uses-permission android:name="com.info121.ioperation.permission.C2D_MESSAGE" />
+    <!--<uses-permission android:name="com.info121.ioperation.permission.C2D_MESSAGE" />-->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
-        android:name="com.info121.ioperation.RootApplication"
+        android:name="com.info121.ioperations.RootApplication"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.info121.ioperation.signature.CaptureSignatureActivity"
+            android:name="com.info121.ioperations.signature.CaptureSignatureActivity"
             android:label="@string/app_name" />
         <activity
-            android:name="com.info121.ioperation.signature.CaptureSignature"
+            android:name="com.info121.ioperations.signature.CaptureSignature"
             android:label="@string/app_name" />
         <activity
-            android:name="com.info121.ioperation.iOPLoginActivity"
+            android:name="com.info121.ioperations.iOPLoginActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -72,76 +74,89 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.info121.ioperation.iOPRegisterActivity"
+            android:name="com.info121.ioperations.iOPRegisterActivity"
             android:label="@string/app_name" />
         <activity
-            android:name="com.info121.ioperation.iOPForgotPasswordActivity"
+            android:name="com.info121.ioperations.iOPForgotPasswordActivity"
             android:label="@string/app_name" />
         <!-- <activity -->
         <!-- android:name=".ChooseTaskActivity" -->
         <!-- android:label="@string/app_name" /> -->
         <activity
-            android:name="com.info121.ioperation.iOpMainViewPagerActivity"
+            android:name="com.info121.ioperations.iOpMainViewPagerActivity"
             android:label="@string/app_name" />
 
-        <service android:name="com.littlefluffytoys.littlefluffylocationlibrary.LocationBroadcastService" />
+        <!--<service android:name="com.littlefluffytoys.littlefluffylocationlibrary.LocationBroadcastService" />-->
 
-        <receiver
-            android:name="com.littlefluffytoys.littlefluffylocationlibrary.StartupBroadcastReceiver"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-            </intent-filter>
-        </receiver>
-        <receiver
-            android:name="com.littlefluffytoys.littlefluffylocationlibrary.PassiveLocationChangedReceiver"
-            android:exported="true" />
-        <receiver android:name=".receiver.LocationBroadcastReceiver">
-            <intent-filter>
-                <action
-                    android:name="com.info121.ioperation.littlefluffylocationlibrary.LOCATION_CHANGED"
-                    android:exported="false" />
-            </intent-filter>
-        </receiver>
+        <!--<receiver-->
+            <!--android:name="com.littlefluffytoys.littlefluffylocationlibrary.StartupBroadcastReceiver"-->
+            <!--android:exported="true">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.BOOT_COMPLETED" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!--<receiver-->
+            <!--android:name="com.littlefluffytoys.littlefluffylocationlibrary.PassiveLocationChangedReceiver"-->
+            <!--android:exported="true" />-->
+
+        <!--<receiver android:name=".receiver.LocationBroadcastReceiver">-->
+            <!--<intent-filter>-->
+                <!--<action-->
+                    <!--android:name="com.info121.ioperation.littlefluffylocationlibrary.LOCATION_CHANGED"-->
+                    <!--android:exported="false" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
 
         <activity
-            android:name=".WelcomeIoperationActivity"
+            android:name="com.info121.ioperations.WelcomeIoperationActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ShowClientActivity"
+            android:name="com.info121.ioperations.ShowClientActivity"
             android:label="@string/app_name"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name=".NoShowClientActivity"
+            android:name="com.info121.ioperations.NoShowClientActivity"
             android:label="@string/app_name" />
         <activity
-            android:name=".WelcomeIbidingActivity"
+            android:name="com.info121.ioperations.WelcomeIbidingActivity"
             android:screenOrientation="portrait" />
 
         <activity android:name="com.info121.SignaneActivity"></activity>
 
-        <receiver
-            android:name="com.google.android.gcm.GCMBroadcastReceiver"
-            android:permission="com.google.android.c2dm.permission.SEND">
-            <intent-filter>
+        <!--<receiver-->
+            <!--android:name="com.google.android.gcm.GCMBroadcastReceiver"-->
+            <!--android:permission="com.google.android.c2dm.permission.SEND">-->
+            <!--<intent-filter>-->
 
-                <!-- Receives the actual messages. -->
-                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-                <!-- Receives the registration id. -->
-                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+                <!--&lt;!&ndash; Receives the actual messages. &ndash;&gt;-->
+                <!--<action android:name="com.google.android.c2dm.intent.RECEIVE" />-->
+                <!--&lt;!&ndash; Receives the registration id. &ndash;&gt;-->
+                <!--<action android:name="com.google.android.c2dm.intent.REGISTRATION" />-->
 
-                <category android:name="com.info121.ioperation" />
-            </intent-filter>
-        </receiver>
+                <!--<category android:name="com.info121.ioperation" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
 
-        <service android:name=".GCMIntentService" />
+        <!--<service android:name=".GCMIntentService" />-->
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.info121.ioperations.MainActivity"
             android:label="@string/title_activity_main"
             android:windowSoftInputMode="adjustPan"></activity>
         <activity android:name="com.info121.SignaneActivity"></activity>
+
+
+        <service android:name="com.info121.services.FirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.info121.services.FirebaseTokenService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

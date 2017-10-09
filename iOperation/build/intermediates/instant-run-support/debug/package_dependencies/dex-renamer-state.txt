@@ -1,4 +1,4 @@
-#Mon Oct 02 16:36:50 MMT 2017
-base.0=D\:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+#Mon Oct 09 09:59:44 MMT 2017
+base.0=D\:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\transforms\\dexMerger\\debug\\10
 renamed.0=classes.dex
-file.0=D\:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\transforms\\dexMerger\\debug\\11\\classes.dex
+file.0=D\:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\transforms\\dexMerger\\debug\\10\\classes.dex
