@@ -8,10 +8,10 @@ package com.example.soaptest;
 
 public final class R {
     public static final class drawable {
-        public static final int ic_launcher = 0x7f07006c;
+        public static final int ic_launcher = 0x7f07006b;
     }
     public static final class id {
-        public static final int menu_settings = 0x7f08014d;
+        public static final int menu_settings = 0x7f080146;
     }
     public static final class layout {
         public static final int activity_main = 0x7f0a0019;
@@ -21,8 +21,8 @@ public final class R {
     }
     public static final class string {
         public static final int app_name = 0x7f0c0030;
-        public static final int hello_world = 0x7f0c0057;
-        public static final int menu_settings = 0x7f0c0082;
+        public static final int hello_world = 0x7f0c0056;
+        public static final int menu_settings = 0x7f0c0081;
     }
     public static final class style {
         public static final int AppBaseTheme = 0x7f0d0004;

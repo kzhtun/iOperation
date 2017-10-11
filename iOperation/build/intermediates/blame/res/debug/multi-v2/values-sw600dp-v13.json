@@ -15,28 +15,28 @@
                     "to": {
                         "startLines": "2,3,4,5,6,7,8,16",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,194,268,344,403,474,1041",
+                        "startOffsets": "55,124,194,268,344,403,474,974",
                         "endColumns": "68,69,73,75,58,70,67,54",
-                        "endOffsets": "119,189,263,339,398,469,537,1091"
+                        "endOffsets": "119,189,263,339,398,469,537,1024"
                     }
                 },
                 {
-                    "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\design-23.1.1.aar\\8afa2b078a5966d553d86efa18c50004\\res\\values-sw600dp\\values-sw600dp.xml",
+                    "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\design-22.2.1.aar\\5f817b819c8a6f761fa1c58ac9e225ec\\res\\values-sw600dp\\values-sw600dp.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,13,16",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "227,297,368,440,498,556,662,898,1133",
+                        "startOffsets": "289,352,416,481,532,583,675,955,1245",
                         "endLines": "4,5,6,7,8,9,10,13,19",
-                        "endColumns": "69,70,71,57,57,105,63,62,12",
-                        "endOffsets": "292,363,435,493,551,657,721,956,1310"
+                        "endColumns": "62,63,64,50,50,91,45,55,12",
+                        "endOffsets": "347,411,476,527,578,670,716,1006,1422"
                     },
                     "to": {
                         "startLines": "9,10,11,12,13,14,15,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "542,612,683,755,813,871,977,1096,1159",
+                        "startOffsets": "542,605,669,734,785,836,928,1029,1085",
                         "endLines": "9,10,11,12,13,14,15,17,21",
-                        "endColumns": "69,70,71,57,57,105,63,62,12",
-                        "endOffsets": "607,678,750,808,866,972,1036,1154,1336"
+                        "endColumns": "62,63,64,50,50,91,45,55,12",
+                        "endOffsets": "600,664,729,780,831,923,969,1080,1262"
                     }
                 }
             ]

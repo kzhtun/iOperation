@@ -3,11 +3,12 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 23
     buildToolsVersion '26.0.2'
+    useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
         applicationId "com.info121.ioperation"
         minSdkVersion 14
-        targetSdkVersion 23
+        targetSdkVersion 19
         multiDexEnabled true
     }
 
@@ -21,29 +22,31 @@ android {
 }
 
 dependencies {
-
-
     implementation 'com.google.firebase:firebase-messaging:11.0.4'
-    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+
     compile project(':iOp_KSoap_Lib')
     compile files('libs/acra-4.5.0.jar')
     compile files('libs/android-viewbadger.jar')
     compile files('libs/commons-net-2.0-ftp.jar')
     compile files('libs/littlefluffylocationlibrary_r11.jar')
     compile files('libs/simpleftp.jar')
+    //    compile 'com.android.support:appcompat-v7:23.1.1'
+    //    compile 'com.android.support:support-v4:23.1.1'
+    //    compile 'com.android.support:multidex:1.0.1'
+    //    compile 'com.android.support:design:22.2.1'
+    //    compile 'com.android.support:recyclerview-v7:23.1.1'
 
-    compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'com.android.support:support-v4:23.1.1'
+
+    compile 'com.android.support:support-v4:22.1.1'
     compile 'com.android.support:multidex:1.0.1'
-    compile 'com.android.support:design:23.1.1'
-    compile 'com.android.support:recyclerview-v7:23.1.1'
-
+    compile 'com.android.support:design:22.2.1'
+    compile 'com.android.support:recyclerview-v7:22.2.1'
     compile 'com.viewpagerindicator:library:2.4.1'
     compile 'de.hdodenhof:circleimageview:2.0.0'
-
     compile 'com.surveymonkey:surveymonkey-android-sdk:1.0.5'
 
 }
+
 
 
 

@@ -19,6 +19,7 @@ import android.widget.Toast;
 
 import com.info121.constant.Constants;
 import com.info121.ioperation.R;
+import com.info121.ioperation.SurveyActivity;
 import com.info121.ioperation.iOPLoginActivity;
 import com.info121.ioperation.util.Parser;
 import com.info121.ioperation.util.Util;
@@ -118,7 +119,12 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 break;
 
             case R.id.btViewJobs_chooseTask:
-                showDialog(getActivity(),"iOperation","This services will be available in time to come");
+
+                // KZHTUN on 10102017 add survey screen
+                //showDialog(getActivity(),"iOperation","This services will be available in time to come");
+
+                startActivity(new Intent(getActivity(), SurveyActivity.class));
+
 
 
                 break;

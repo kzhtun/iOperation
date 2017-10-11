@@ -90,6 +90,11 @@
             android:screenOrientation="portrait" />
         <activity android:name="com.info121.SignaneActivity" />
 
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:windowSoftInputMode="adjustPan"></activity>
+
 
         <service
             android:name="com.info121.services.FirebaseMessagingService"
@@ -104,7 +109,7 @@
             </intent-filter>
         </service>
 
-        <activity android:name=".util.SurveyActivity"></activity>
+        <activity android:name=".SurveyActivity"></activity>
     </application>
 
 </manifest>

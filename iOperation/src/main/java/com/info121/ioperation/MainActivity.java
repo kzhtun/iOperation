@@ -115,142 +115,142 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        //Initializing NavigationView
-        navigationView = (NavigationView) findViewById(R.id.navigation_view);
-
-//        View header=navigationView.inflateHeaderView(R.layout.header);
-        TextView uname = (TextView) navigationView.findViewById(R.id.usernameHeader);
-        TextView email = (TextView) navigationView.findViewById(R.id.emailHeader);
-        SharedPreferences preferences = context.getSharedPreferences(Util.SERVER_SHARED_PREFERENCES_KEY, Context.MODE_PRIVATE);
-
-        uname.setText(getSharedPreferences(Util.SHARED_PREFERENCES_KEY, MODE_PRIVATE).getString(Util.LOGIN_KEY, ""));
-
-
-        //Setting Navigation View Item Selected Listener to handle the item click of the navigation menu
-        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
-
-            // This method will trigger on item Click of navigation menu
-            @Override
-            public boolean onNavigationItemSelected(MenuItem menuItem) {
-
-
-                //Checking if the item is in checked state or not, if not make it in checked state
-                if (menuItem.isChecked()) menuItem.setChecked(false);
-                else menuItem.setChecked(true);
-
-                //Closing drawer on item click
-                drawerLayout.closeDrawers();
-                Fragment fragment;
-                android.support.v4.app.FragmentTransaction fragmentTransaction;
-                //Check to see which item was being clicked and perform appropriate action
-                switch (menuItem.getItemId()) {
-
-                    //Replacing the main content with ContentFragment Which is our Inbox View;
-
-                    case R.id.home:
-//                        Toast.makeText(getApplicationContext(), "Home", Toast.LENGTH_SHORT).show();
-                        fragment = new HomeFragment();
-                        fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                        fragmentTransaction.replace(R.id.frame, fragment);
-                        fragmentTransaction.commit();
-                        return true;
-
-                    case R.id.incomming:
-//                        Toast.makeText(getApplicationContext(), "Incomming", Toast.LENGTH_SHORT).show();
-                        fragment = new iBiddingFragment();
-//                        fragment = new IncommingFragment();
-                        fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                        fragmentTransaction.replace(R.id.frame, fragment);
-                        fragmentTransaction.commit();
-                        return true;
-
-                    // For rest of the options we just show a toast on click
-                    case R.id.todo:
-//                        Toast.makeText(getApplicationContext(), "todo", Toast.LENGTH_SHORT).show();
-                        fragment = new iOperationFragment();
-                        fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                        fragmentTransaction.replace(R.id.frame, fragment);
-                        fragmentTransaction.commit();
-                        return true;
-
-                    case R.id.view_jobs:
-//                        Toast.makeText(getApplicationContext(), "View Jobs", Toast.LENGTH_SHORT).show();
-//                        Toast.makeText(getApplicationContext(), "Incomming", Toast.LENGTH_SHORT).show();
-                        fragment = new iBiddingFragment();
-//                        fragment = new IncommingFragment();
-                        fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                        fragmentTransaction.replace(R.id.frame, fragment);
-                        fragmentTransaction.commit();
-                        return true;
-                    case R.id.calender:
-//                        Toast.makeText(getApplicationContext(), "Calender", Toast.LENGTH_SHORT).show();
-                        fragment = new CalenderFragment();
-                        fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                        fragmentTransaction.replace(R.id.frame, fragment);
-                        fragmentTransaction.commit();
-
-
-                        return true;
-                    case R.id.billing:
- //                       Toast.makeText(getApplicationContext(), "Billing", Toast.LENGTH_SHORT).show();
-                        fragment = new BillingFragment();
-                        fragmentTransaction = getSupportFragmentManager().beginTransaction();
-                        fragmentTransaction.replace(R.id.frame, fragment);
-                        fragmentTransaction.commit();
-                        return true;
-//                    case R.id.feedback:
-//                        Toast.makeText(getApplicationContext(), "FeedBack", Toast.LENGTH_SHORT).show();
-//                        fragment = new FeedbackFragment();
+//        //Initializing NavigationView
+//        navigationView = (NavigationView) findViewById(R.id.navigation_view);
+//
+////        View header=navigationView.inflateHeaderView(R.layout.header);
+//        TextView uname = (TextView) navigationView.findViewById(R.id.usernameHeader);
+//        TextView email = (TextView) navigationView.findViewById(R.id.emailHeader);
+//        SharedPreferences preferences = context.getSharedPreferences(Util.SERVER_SHARED_PREFERENCES_KEY, Context.MODE_PRIVATE);
+//
+//        uname.setText(getSharedPreferences(Util.SHARED_PREFERENCES_KEY, MODE_PRIVATE).getString(Util.LOGIN_KEY, ""));
+//
+//
+//        //Setting Navigation View Item Selected Listener to handle the item click of the navigation menu
+//        navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+//
+//            // This method will trigger on item Click of navigation menu
+//            @Override
+//            public boolean onNavigationItemSelected(MenuItem menuItem) {
+//
+//
+//                //Checking if the item is in checked state or not, if not make it in checked state
+//                if (menuItem.isChecked()) menuItem.setChecked(false);
+//                else menuItem.setChecked(true);
+//
+//                //Closing drawer on item click
+//                drawerLayout.closeDrawers();
+//                Fragment fragment;
+//                android.support.v4.app.FragmentTransaction fragmentTransaction;
+//                //Check to see which item was being clicked and perform appropriate action
+//                switch (menuItem.getItemId()) {
+//
+//                    //Replacing the main content with ContentFragment Which is our Inbox View;
+//
+//                    case R.id.home:
+////                        Toast.makeText(getApplicationContext(), "Home", Toast.LENGTH_SHORT).show();
+//                        fragment = new HomeFragment();
 //                        fragmentTransaction = getSupportFragmentManager().beginTransaction();
 //                        fragmentTransaction.replace(R.id.frame, fragment);
 //                        fragmentTransaction.commit();
 //                        return true;
-//                    case R.id.change_password:
-//                        Toast.makeText(getApplicationContext(), "Change Password", Toast.LENGTH_SHORT).show();
-//                        fragment = new ForgotPasswordFragment();
+//
+//                    case R.id.incomming:
+////                        Toast.makeText(getApplicationContext(), "Incomming", Toast.LENGTH_SHORT).show();
+//                        fragment = new iBiddingFragment();
+////                        fragment = new IncommingFragment();
 //                        fragmentTransaction = getSupportFragmentManager().beginTransaction();
 //                        fragmentTransaction.replace(R.id.frame, fragment);
 //                        fragmentTransaction.commit();
 //                        return true;
-                    case R.id.exit:
-//                        Toast.makeText(getApplicationContext(), "Exit", Toast.LENGTH_SHORT).show();
-                        showLogOutDialog(MainActivity.this, "Exit", "logout from the app?");
-                        return true;
-
-                    default:
-                        Toast.makeText(getApplicationContext(), "Somethings Wrong", Toast.LENGTH_SHORT).show();
-                        return true;
-
-                }
-            }
-        });
-
-        // Initializing Drawer Layout and ActionBarToggle
-        drawerLayout = (DrawerLayout) findViewById(R.id.drawer);
-        ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.drawable.ic_launcher, R.string.openDrawer, R.string.closeDrawer) {
-
-            @Override
-            public void onDrawerClosed(View drawerView) {
-                // Code here will be triggered once the drawer closes as we dont want anything to happen so we leave this blank
-                super.onDrawerClosed(drawerView);
-            }
-
-            @Override
-            public void onDrawerOpened(View drawerView) {
-                // Code here will be triggered once the drawer open as we dont want anything to happen so we leave this blank
-
-                super.onDrawerOpened(drawerView);
-            }
-        };
-
-        //Setting the actionbarToggle to drawer layout
-        drawerLayout.setDrawerListener(actionBarDrawerToggle);
-
-        //calling sync state is necessay or else your hamburger icon wont show up
-        actionBarDrawerToggle.syncState();
-
-        // KZHTUN on 09102017  to hide the exception of calendar event
-        new AddEventInCalendar().execute();
+//
+//                    // For rest of the options we just show a toast on click
+//                    case R.id.todo:
+////                        Toast.makeText(getApplicationContext(), "todo", Toast.LENGTH_SHORT).show();
+//                        fragment = new iOperationFragment();
+//                        fragmentTransaction = getSupportFragmentManager().beginTransaction();
+//                        fragmentTransaction.replace(R.id.frame, fragment);
+//                        fragmentTransaction.commit();
+//                        return true;
+//
+//                    case R.id.view_jobs:
+////                        Toast.makeText(getApplicationContext(), "View Jobs", Toast.LENGTH_SHORT).show();
+////                        Toast.makeText(getApplicationContext(), "Incomming", Toast.LENGTH_SHORT).show();
+//                        fragment = new iBiddingFragment();
+////                        fragment = new IncommingFragment();
+//                        fragmentTransaction = getSupportFragmentManager().beginTransaction();
+//                        fragmentTransaction.replace(R.id.frame, fragment);
+//                        fragmentTransaction.commit();
+//                        return true;
+//                    case R.id.calender:
+////                        Toast.makeText(getApplicationContext(), "Calender", Toast.LENGTH_SHORT).show();
+//                        fragment = new CalenderFragment();
+//                        fragmentTransaction = getSupportFragmentManager().beginTransaction();
+//                        fragmentTransaction.replace(R.id.frame, fragment);
+//                        fragmentTransaction.commit();
+//
+//
+//                        return true;
+//                    case R.id.billing:
+// //                       Toast.makeText(getApplicationContext(), "Billing", Toast.LENGTH_SHORT).show();
+//                        fragment = new BillingFragment();
+//                        fragmentTransaction = getSupportFragmentManager().beginTransaction();
+//                        fragmentTransaction.replace(R.id.frame, fragment);
+//                        fragmentTransaction.commit();
+//                        return true;
+////                    case R.id.feedback:
+////                        Toast.makeText(getApplicationContext(), "FeedBack", Toast.LENGTH_SHORT).show();
+////                        fragment = new FeedbackFragment();
+////                        fragmentTransaction = getSupportFragmentManager().beginTransaction();
+////                        fragmentTransaction.replace(R.id.frame, fragment);
+////                        fragmentTransaction.commit();
+////                        return true;
+////                    case R.id.change_password:
+////                        Toast.makeText(getApplicationContext(), "Change Password", Toast.LENGTH_SHORT).show();
+////                        fragment = new ForgotPasswordFragment();
+////                        fragmentTransaction = getSupportFragmentManager().beginTransaction();
+////                        fragmentTransaction.replace(R.id.frame, fragment);
+////                        fragmentTransaction.commit();
+////                        return true;
+//                    case R.id.exit:
+////                        Toast.makeText(getApplicationContext(), "Exit", Toast.LENGTH_SHORT).show();
+//                        showLogOutDialog(MainActivity.this, "Exit", "logout from the app?");
+//                        return true;
+//
+//                    default:
+//                        Toast.makeText(getApplicationContext(), "Somethings Wrong", Toast.LENGTH_SHORT).show();
+//                        return true;
+//
+//                }
+//            }
+//        });
+//
+//        // Initializing Drawer Layout and ActionBarToggle
+//        drawerLayout = (DrawerLayout) findViewById(R.id.drawer);
+//        ActionBarDrawerToggle actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, R.drawable.ic_launcher, R.string.openDrawer, R.string.closeDrawer) {
+//
+//            @Override
+//            public void onDrawerClosed(View drawerView) {
+//                // Code here will be triggered once the drawer closes as we dont want anything to happen so we leave this blank
+//                super.onDrawerClosed(drawerView);
+//            }
+//
+//            @Override
+//            public void onDrawerOpened(View drawerView) {
+//                // Code here will be triggered once the drawer open as we dont want anything to happen so we leave this blank
+//
+//                super.onDrawerOpened(drawerView);
+//            }
+//        };
+//
+//        //Setting the actionbarToggle to drawer layout
+//        drawerLayout.setDrawerListener(actionBarDrawerToggle);
+//
+//        //calling sync state is necessay or else your hamburger icon wont show up
+//        actionBarDrawerToggle.syncState();
+//
+//        // KZHTUN on 09102017  to hide the exception of calendar event
+//        new AddEventInCalendar().execute();
     }
 
 

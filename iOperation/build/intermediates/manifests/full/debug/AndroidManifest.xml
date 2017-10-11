@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="23" />
+        android:targetSdkVersion="19" />
 
     <!-- <uses-sdk -->
     <!-- android:minSdkVersion="8" -->
@@ -100,6 +100,10 @@
             android:name="com.info121.ioperation.WelcomeIbidingActivity"
             android:screenOrientation="portrait" />
         <activity android:name="com.info121.SignaneActivity" />
+        <activity
+            android:name="com.info121.ioperation.MainActivity"
+            android:label="@string/title_activity_main"
+            android:windowSoftInputMode="adjustPan" />
 
         <service
             android:name="com.info121.services.FirebaseMessagingService"
@@ -114,18 +118,10 @@
             </intent-filter>
         </service>
 
-        <activity android:name="com.info121.ioperation.util.SurveyActivity" />
+        <activity android:name="com.info121.ioperation.SurveyActivity" />
         <activity
             android:name="com.example.soaptest.MainActivity"
             android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name="com.surveymonkey.surveymonkeyandroidsdk.SMFeedbackActivity"
-            android:screenOrientation="locked"
-            android:windowSoftInputMode="adjustResize" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-            </intent-filter>
         </activity>
         <!--
  FirebaseMessagingService performs security checks at runtime,
@@ -202,6 +198,15 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.surveymonkey.surveymonkeyandroidsdk.SMFeedbackActivity"
+            android:screenOrientation="locked"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

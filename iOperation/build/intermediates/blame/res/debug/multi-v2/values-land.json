@@ -4,14 +4,14 @@
             "outputFile": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\design-23.1.1.aar\\8afa2b078a5966d553d86efa18c50004\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\design-22.2.1.aar\\5f817b819c8a6f761fa1c58ac9e225ec\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",
-                        "startOffsets": "224",
+                        "startOffsets": "286",
                         "endLines": "7",
                         "endColumns": "12",
-                        "endOffsets": "401"
+                        "endOffsets": "463"
                     },
                     "to": {
                         "startLines": "8",
