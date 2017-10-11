@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="surveymonkey-android-sdk-1.0.5">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/surveymonkey-android-sdk-1.0.5.aar/5e385cf3538461e2fb20700476849d53/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/surveymonkey-android-sdk-1.0.5.aar/5e385cf3538461e2fb20700476849d53/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.surveymonkey/surveymonkey-android-sdk/1.0.5/a7c5bc0fe462bc6f1daad5018b6d38864a27f823/surveymonkey-android-sdk-1.0.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

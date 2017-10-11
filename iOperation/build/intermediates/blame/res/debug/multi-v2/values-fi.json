@@ -4,6 +4,23 @@
             "outputFile": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\values-fi\\values-fi.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,271,394,494,595,681,786,904,991,1073,1153,1260,1363,1460,1566,1665,1769,1888,1987",
+                        "endColumns": "107,107,122,99,100,85,104,117,86,81,79,106,102,96,105,98,103,118,98,100",
+                        "endOffsets": "158,266,389,489,590,676,781,899,986,1068,1148,1255,1358,1455,1561,1660,1764,1883,1982,2083"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,213,321,444,544,645,731,836,954,1041,1123,1203,1310,1413,1510,1616,1715,1819,1938,2246",
+                        "endColumns": "107,107,122,99,100,85,104,117,86,81,79,106,102,96,105,98,103,118,98,100",
+                        "endOffsets": "208,316,439,539,640,726,831,949,1036,1118,1198,1305,1408,1505,1611,1710,1814,1933,2032,2342"
+                    }
+                },
+                {
                     "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.0.4.aar\\a220395748441e008b108db10b67704b\\res\\values-fi\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -13,28 +30,11 @@
                         "endOffsets": "493"
                     },
                     "to": {
-                        "startLines": "15",
+                        "startLines": "21",
                         "startColumns": "4",
-                        "startOffsets": "1458",
+                        "startOffsets": "2037",
                         "endColumns": "208",
-                        "endOffsets": "1662"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-22.2.1.aar\\42dd5ef16b709efaff01c35ba1367390\\res\\values-fi\\values-fi.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "291,399,499,600,686,791,909,1016,1119,1216,1322,1421,1525",
-                        "endColumns": "107,99,100,85,104,117,106,102,96,105,98,103,118",
-                        "endOffsets": "394,494,595,681,786,904,1011,1114,1211,1317,1416,1520,1639"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,213,313,414,500,605,723,830,933,1030,1136,1235,1339",
-                        "endColumns": "107,99,100,85,104,117,106,102,96,105,98,103,118",
-                        "endOffsets": "208,308,409,495,600,718,825,928,1025,1131,1230,1334,1453"
+                        "endOffsets": "2241"
                     }
                 }
             ]

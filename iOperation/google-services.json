@@ -1,27 +1,27 @@
 {
   "project_info": {
-    "project_number": "519436474621",
-    "firebase_url": "https://iops-489fa.firebaseio.com",
-    "project_id": "iops-489fa",
-    "storage_bucket": "iops-489fa.appspot.com"
+    "project_number": "636767296590",
+    "firebase_url": "https://ioperation-d656c.firebaseio.com",
+    "project_id": "ioperation-d656c",
+    "storage_bucket": "ioperation-d656c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:519436474621:android:64000a1835f0011e",
+        "mobilesdk_app_id": "1:636767296590:android:64000a1835f0011e",
         "android_client_info": {
           "package_name": "com.info121.ioperation"
         }
       },
       "oauth_client": [
         {
-          "client_id": "519436474621-9biicv5sqcqj4tqh3lqg5jm7gkv1hgvq.apps.googleusercontent.com",
+          "client_id": "636767296590-vsvlh9ad7huaf9abora9obpue8a0885h.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDlaE1GZGaNw-IzzjtlcOBtLkHSqI9z5Es"
+          "current_key": "AIzaSyAzOBvlROnaOszCqYwOwX0puiWrImsYRCk"
         }
       ],
       "services": {

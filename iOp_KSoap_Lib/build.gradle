@@ -1,12 +1,12 @@
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 22
+    compileSdkVersion 23
     buildToolsVersion '26.0.2'
 
     defaultConfig {
         minSdkVersion 8
-        targetSdkVersion 19
+        targetSdkVersion 23
 
     }
 
@@ -21,3 +21,4 @@ android {
 dependencies {
     compile files('libs/kxml2-2.3.0.jar')
 }
+

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">519436474621-9biicv5sqcqj4tqh3lqg5jm7gkv1hgvq.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://iops-489fa.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">519436474621</string>
-    <string name="google_api_key" translatable="false">AIzaSyDlaE1GZGaNw-IzzjtlcOBtLkHSqI9z5Es</string>
-    <string name="google_app_id" translatable="false">1:519436474621:android:64000a1835f0011e</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDlaE1GZGaNw-IzzjtlcOBtLkHSqI9z5Es</string>
-    <string name="google_storage_bucket" translatable="false">iops-489fa.appspot.com</string>
-    <string name="project_id" translatable="false">iops-489fa</string>
+    <string name="default_web_client_id" translatable="false">636767296590-vsvlh9ad7huaf9abora9obpue8a0885h.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ioperation-d656c.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">636767296590</string>
+    <string name="google_api_key" translatable="false">AIzaSyAzOBvlROnaOszCqYwOwX0puiWrImsYRCk</string>
+    <string name="google_app_id" translatable="false">1:636767296590:android:64000a1835f0011e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAzOBvlROnaOszCqYwOwX0puiWrImsYRCk</string>
+    <string name="google_storage_bucket" translatable="false">ioperation-d656c.appspot.com</string>
+    <string name="project_id" translatable="false">ioperation-d656c</string>
 </resources>

@@ -7,12 +7,16 @@ import android.content.Context;
 import android.content.Intent;
 import android.media.RingtoneManager;
 import android.net.Uri;
+import android.support.annotation.NonNull;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.ContextCompat;
 
 import com.google.firebase.messaging.RemoteMessage;
-import com.info121.ioperations.MainActivity;
-import com.info121.ioperations.R;
+import com.info121.ioperation.MainActivity;
+import com.info121.ioperation.R;
+import com.info121.ioperation.util.Constant;
+import com.info121.ioperation.util.Util;
+
 
 /**
  * Created by KZHTUN on 7/28/2017.
@@ -44,6 +48,9 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
 
     private void sendNotification(String title, String messageBody) {
 
+        // set redirect screen
+        Util.WriteSharePrefrence(getApplicationContext(), Constant.SHRED_PR.KEY_IS_IBIDING_OR_IOPERATION, "ioperation");
+
         Intent intent = new Intent(this, MainActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
         PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* Request code */, intent,
@@ -58,7 +65,7 @@ public class FirebaseMessagingService extends com.google.firebase.messaging.Fire
                 .setAutoCancel(true)
                 .setSound(defaultSoundUri)
                 .setContentIntent(pendingIntent)
-                .setColor(ContextCompat.getColor(this, R.color.COLOR_BG))
+                .setColor(ContextCompat.getColor(this, R.color.COLOR_BLUE_BG))
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setDefaults(Notification.DEFAULT_ALL)
                 .setVisibility(NotificationCompat.VISIBILITY_PUBLIC);

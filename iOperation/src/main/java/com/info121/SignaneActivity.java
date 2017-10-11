@@ -13,9 +13,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.info121.ioperations.R;
-import com.info121.ioperations.util.Util;
-import com.info121.ioperations.util.Utils;
+import com.info121.ioperation.R;
+import com.info121.ioperation.util.Util;
+import com.info121.ioperation.util.Utils;
 
 public class SignaneActivity extends AppCompatActivity implements View.OnClickListener {
 

@@ -34,7 +34,7 @@
                     android:textSize="22sp"
                     android:textStyle="bold" />
 
-                <com.info121.ioperations.util.AutoFitTextViewShow
+                <com.info121.ioperation.util.AutoFitTextViewShow
                     android:id="@+id/TextViewShowPassengerName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
