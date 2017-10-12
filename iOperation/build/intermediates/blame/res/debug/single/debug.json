@@ -56,12 +56,12 @@
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-xlarge\\choose_task_layout.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_vpi__tab_unselected_pressed_holo.9.png.flat",
@@ -104,12 +104,12 @@
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\drawable\\spinner_border.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-large_fragment_feedback.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-large\\fragment_feedback.xml"
+    },
+    {
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
+        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-hdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calender.png.flat",
@@ -176,10 +176,6 @@
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout\\reassign_dialog.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_itemview_unread.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\drawable\\rounded_itemview_unread.xml"
     },
@@ -244,20 +240,12 @@
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-mdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-xxhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
-    },
-    {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\layout\\notification_template_custom_big.xml"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_overlay_survey_ended.xml.flat",
@@ -308,24 +296,24 @@
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-xxxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_login_layout.xml.flat",
-        "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-xlarge\\login_layout.xml"
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_header_model3.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\drawable\\header_model3.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-mdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_search_api_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-xxxhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_login_layout.xml.flat",
+        "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-xlarge\\login_layout.xml"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\color_abc_search_url_text.xml.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_search_api_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-xxxhdpi-v4\\abc_ic_search_api_mtrl_alpha.png"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_spinner_item.xml.flat",
@@ -340,10 +328,6 @@
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-sw600dp\\child_listview_ibidding.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\layout\\notification_action_tombstone.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_fragment_dialog.xml.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\surveymonkey-android-sdk-1.0.5.aar\\5e385cf3538461e2fb20700476849d53\\res\\layout\\fragment_dialog.xml"
     },
@@ -356,12 +340,12 @@
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\drawable-xhdpi\\ic_edit_36pt.png"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_rating_star_off_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-mdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item.xml.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\design-22.2.1.aar\\5f817b819c8a6f761fa1c58ac9e225ec\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_rating_star_off_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-mdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_fragment_review_claims.xml.flat",
@@ -414,10 +398,6 @@
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp_header.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-sw600dp\\header.xml"
-    },
-    {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_welcome_ibidding.xml.flat",
@@ -526,10 +506,6 @@
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-large_ibidding_details_pager_item.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-large\\ibidding_details_pager_item.xml"
-    },
-    {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_show_client_layout.xml.flat",
@@ -708,10 +684,6 @@
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-xxhdpi-v4\\abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-v21_notification_action_background.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-v21\\notification_action_background.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_action_button_empty_cream.9.png.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\drawable-hdpi\\action_button_empty_cream.9.png"
     },
@@ -812,10 +784,6 @@
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout\\ioperation_dialog.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action_tombstone.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_bar.xml.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\layout\\abc_action_mode_bar.xml"
     },
@@ -848,20 +816,16 @@
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_media_custom.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\fb544ab54ccde765ccf030a66c8cd59a\\res\\layout\\notification_template_media_custom.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_refresh.png.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\drawable\\refresh.png"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_listing_adapter.xml.flat",
-        "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-xlarge\\listing_adapter.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_itemview_arr.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\drawable\\rounded_itemview_arr.xml"
+    },
+    {
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_listing_adapter.xml.flat",
+        "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-xlarge\\listing_adapter.xml"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_activity_main.xml.flat",
@@ -1000,10 +964,6 @@
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-sw600dp\\listing_adapter.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_notification_action.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\layout\\notification_action.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_fragment_smfeedback.xml.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\surveymonkey-android-sdk-1.0.5.aar\\5e385cf3538461e2fb20700476849d53\\res\\layout\\fragment_smfeedback.xml"
     },
@@ -1040,10 +1000,6 @@
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-mdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-hdpi-v4\\notification_bg_normal.9.png"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
     },
@@ -1062,10 +1018,6 @@
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_passengar_name_edit_dialog.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout\\passengar_name_edit_dialog.xml"
-    },
-    {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-mdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_roundededgebox_buttongreen.xml.flat",
@@ -1104,16 +1056,8 @@
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_biddetail_dialog.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-sw720dp\\biddetail_dialog.xml"
-    },
-    {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\layout-v16\\notification_template_custom_big.xml"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -1236,10 +1180,6 @@
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-hdpi-v4\\notification_bg_low_pressed.9.png"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_header_model5.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\drawable\\header_model5.xml"
     },
@@ -1252,20 +1192,12 @@
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-sw720dp\\ibidding_details_pager_item.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_custom_big.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_vpi__tab_unselected_pressed_holo.9.png.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\library-2.4.1.aar\\c9523e0d7c22cde55b316582989b42af\\res\\drawable-mdpi\\vpi__tab_unselected_pressed_holo.9.png"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_spinner_item.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-sw720dp\\spinner_item.xml"
-    },
-    {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_child_listview_message.xml.flat",
@@ -1322,10 +1254,6 @@
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_custom_checkbox.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\drawable\\custom_checkbox.xml"
-    },
-    {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_fab_background.xml.flat",
@@ -1408,10 +1336,6 @@
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_forgot_password_layout.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout\\forgot_password_layout.xml"
     },
@@ -1436,10 +1360,6 @@
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable\\abc_ic_menu_share_material.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_notification_tile_bg.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable\\notification_tile_bg.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_drawer_title_shape.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\drawable\\drawer_title_shape.xml"
     },
@@ -1458,10 +1378,6 @@
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_child_listview_ioperation.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-xlarge\\child_listview_ioperation.xml"
-    },
-    {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable\\notification_bg.xml"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
@@ -1560,16 +1476,8 @@
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-sw600dp\\jobdetail_dialog.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_list_selector_disabled_holo_dark.9.png.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
-    },
-    {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_fragment_home.xml.flat",
@@ -1646,10 +1554,6 @@
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_jobdetail_dialog.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout\\jobdetail_dialog.xml"
-    },
-    {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\layout-v21\\notification_action.xml"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
@@ -1732,10 +1636,6 @@
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-large\\fragment_ibidding_layout.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_custom.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\fb544ab54ccde765ccf030a66c8cd59a\\res\\layout\\notification_template_big_media_custom.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-large_ioperation_pager_activity.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-large\\ioperation_pager_activity.xml"
     },
@@ -1816,10 +1716,6 @@
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout\\child_listview_new_message.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-large_fragment_ioperation_layout.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-large\\fragment_ioperation_layout.xml"
     },
@@ -1872,10 +1768,6 @@
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-sw600dp\\ibidding_details_pager_item.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_notification_icon_background.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable\\notification_icon_background.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_rating_star_on_mtrl_alpha.png.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-xhdpi-v4\\abc_btn_rating_star_on_mtrl_alpha.png"
     },
@@ -1890,10 +1782,6 @@
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_drawer_shadow.9.png.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\drawable-hdpi\\drawer_shadow.9.png"
-    },
-    {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\fb544ab54ccde765ccf030a66c8cd59a\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_material.xml.flat",
@@ -1940,10 +1828,6 @@
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\drawable-hdpi\\iop_logo.png"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_colored_material.xml.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable\\abc_btn_colored_material.xml"
     },
@@ -1986,10 +1870,6 @@
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\color-v11_abc_background_cache_hint_selector_material_light.xml.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_lines_media.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\fb544ab54ccde765ccf030a66c8cd59a\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -2064,10 +1944,6 @@
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-hdpi-v4\\notification_bg_normal_pressed.9.png"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_fragment_review_claims.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout\\fragment_review_claims.xml"
     },
@@ -2100,12 +1976,12 @@
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable\\abc_ic_voice_search_api_material.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_rounded_itemview_dep.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\drawable\\rounded_itemview_dep.xml"
+    },
+    {
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_abc_ic_voice_search_api_material.xml.flat",
+        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable\\abc_ic_voice_search_api_material.xml"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-large_continueornot_dialog.xml.flat",
@@ -2198,10 +2074,6 @@
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_btn_switch_to_on_mtrl_00001.9.png.flat",
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-23.2.0.aar\\63309446cbf435e4ebb460abe609bfd3\\res\\drawable-xxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
-    },
-    {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable-hdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-sw720dp_signature.xml.flat",
@@ -2344,10 +2216,6 @@
         "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\library-2.4.1.aar\\c9523e0d7c22cde55b316582989b42af\\res\\drawable-xhdpi\\vpi__tab_selected_focused_holo.9.png"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
-        "source": "C:\\Users\\KZHTUN\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\0b01e0c118da4b3c8ec84b2c82d5227e\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_header_model_ibidding.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\drawable\\header_model_ibidding.xml"
     },
@@ -2368,12 +2236,12 @@
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-sw720dp\\fragment_calender.xml"
     },
     {
-        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-large_header.xml.flat",
-        "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-large\\header.xml"
-    },
-    {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout_fragment_job_list.xml.flat",
         "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout\\fragment_job_list.xml"
+    },
+    {
+        "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\layout-large_header.xml.flat",
+        "source": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\src\\main\\res\\layout-large\\header.xml"
     },
     {
         "merged": "D:\\INFO121\\iOperation\\iOperation Android Studio\\iOperation\\build\\intermediates\\res\\merged\\debug\\drawable_spinner_border_shape.xml.flat",

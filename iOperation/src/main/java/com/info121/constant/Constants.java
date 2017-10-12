@@ -249,6 +249,11 @@ public class Constants {
     public static String uRLiOpsGetDriverAllJobs = BASE_URL + "/iops/service.asmx?op=IOPS_Survey_ListJobs";
     public static String APIDotNetSOAPActioniOpsGetDriverAllJobs = "http://tempuri.org/IOPS_Survey_ListJobs";
     public static String APIDotNetMethodNameGetDriverAllJobs = "IOPS_Survey_ListJobs";
+
+    // KZHTUN on 20171110
+    public static String uRLiOpsSetSurveyInfo = BASE_URL + "/iops/service.asmx?op=IOPS_Survey_Start";
+    public static String APIDotNetSOAPActioniOpsSetSurveyInfo = "http://tempuri.org/IOPS_Survey_Start";
+    public static String APIDotNetMethodNameSetSurveyInfo = "IOPS_Survey_Start";
 //
 //    // KZHTUN on 20171025
 //    public static String uRLiOpsGetDriverNewMessages = BASE_URL + "/iops/service.asmx?op=IOPS_Messages_GetDriverNewMessages";

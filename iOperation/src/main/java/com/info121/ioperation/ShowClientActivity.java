@@ -142,58 +142,12 @@ public class ShowClientActivity extends RootWithIdleCheckActivity implements OnC
         mContent.addView(mSignature, LayoutParams.FILL_PARENT, LayoutParams.FILL_PARENT);
         mClear = (Button) findViewById(R.id.clear);
 
-        mRateMe = (Button) findViewById(R.id.btn_rate_me);
+       // mRateMe = (Button) findViewById(R.id.btn_rate_me);
 
         //dir = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES) + "/picFolder/";
 
 
-        mRateMe.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
 
-                // custom dialog
-                final Dialog dialog = new Dialog(context);
-                dialog.setContentView(R.layout.dialog_rating);
-                dialog.setTitle("Thank you for sharing your expirence. \n Your email will be used to send future promotions");
-
-
-                final EditText mEmail = (EditText) dialog.findViewById(R.id.email);
-                final RatingBar mRatingBar = (RatingBar) dialog.findViewById(R.id.ratingBar);
-                final Button mSubmit = (Button) dialog.findViewById(R.id.submit);
-
-
-//                LayerDrawable layerStars = (LayerDrawable) mRatingBar.getProgressDrawable();
-//                layerStars.getDrawable(2).setColorFilter(Color.YELLOW, PorterDuff.Mode.SRC_ATOP);
-//                layerStars.getDrawable(0).setColorFilter(Color.BLUE, PorterDuff.Mode.SRC_ATOP);
-//                layerStars.getDrawable(1).setColorFilter(Color.BLUE, PorterDuff.Mode.SRC_ATOP);
-
-                mSubmit.setOnClickListener(new OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        // Toast.makeText(ShowClientActivity.this, String.valueOf(mRatingBar.getRating()), Toast.LENGTH_SHORT);
-
-                        stars = Math.round(mRatingBar.getRating());
-                        emailText = mEmail.getText().toString();
-
-                        if (emailText.length() == 0) {
-                            mEmail.setError("Please enter valid email address.");
-                            mEmail.requestFocus();
-                        } else {
-                            if (isValidEmaillId(emailText)) {
-                                dialog.dismiss();
-                            } else {
-                                mEmail.setError("Please enter valid email address.");
-                                mEmail.requestFocus();
-                            }
-                        }
-
-                    }
-                });
-
-                dialog.show();
-
-            }
-        });
 
 
         dir = getDir("directory", Context.MODE_PRIVATE).getPath();
@@ -223,15 +177,7 @@ public class ShowClientActivity extends RootWithIdleCheckActivity implements OnC
     }
 
 
-    public static boolean isValidEmaillId(String email) {
 
-        return Pattern.compile("^(([\\w-]+\\.)+[\\w-]+|([a-zA-Z]{1}|[\\w-]{2,}))@"
-                + "((([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.([0-1]?"
-                + "[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\."
-                + "([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.([0-1]?"
-                + "[0-9]{1,2}|25[0-5]|2[0-4][0-9])){1}|"
-                + "([a-zA-Z]+[\\w-]+\\.)+[a-zA-Z]{2,4})$").matcher(email).matches();
-    }
 
     private String getCompleteAddressString(double LATITUDE, double LONGITUDE) {
         String strAdd = "";
