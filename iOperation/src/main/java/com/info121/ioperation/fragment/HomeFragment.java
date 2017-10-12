@@ -122,8 +122,10 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
                 // KZHTUN on 10102017 add survey screen
                 //showDialog(getActivity(),"iOperation","This services will be available in time to come");
-
-                startActivity(new Intent(getActivity(), SurveyActivity.class));
+                JobListFragment jobListFragment = new JobListFragment();
+                fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.frame, jobListFragment);
+                fragmentTransaction.commit();
 
 
 

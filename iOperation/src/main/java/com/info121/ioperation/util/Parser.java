@@ -4,6 +4,7 @@ import android.util.Log;
 
 import com.info121.model.City_Model;
 import com.info121.model.Country_Model;
+import com.info121.model.Job;
 import com.info121.model.ReAssign_Model;
 import com.info121.model.iBid_Model;
 import com.info121.model.iMessage;
@@ -1150,6 +1151,33 @@ public class Parser {
 
         return temp;
     }
+
+    public static ArrayList<Job> getJSONDriverAllJobs(String jsontext) throws Exception {
+        ArrayList<Job> temp = new ArrayList<>();
+
+        JSONObject rootObj = new JSONObject(jsontext);
+
+        JSONArray msgObj = rootObj.getJSONArray("result").getJSONObject(0).getJSONArray("data");
+
+        for (int i = 0; i < msgObj.length(); i++) {
+            Job job = new Job();
+
+            job.setJobNo(msgObj.getJSONObject(i).getString("jobNo"));
+            job.setClientname(msgObj.getJSONObject(i).getString("clientname"));
+            job.setJobtype(msgObj.getJSONObject(i).getString("jobtype"));
+            job.setPax(msgObj.getJSONObject(i).getString("pax"));
+            job.setJobDate(msgObj.getJSONObject(i).getString("JobDate"));
+            job.setPickupTime(msgObj.getJSONObject(i).getString("PickupTime"));
+            job.setPickupPoint(msgObj.getJSONObject(i).getString("PickupPoint"));
+            job.setAlightPoint(msgObj.getJSONObject(i).getString("AlightPoint"));
+
+
+            temp.add(job);
+        }
+
+        return temp;
+    }
+
 
     public static ArrayList<iMessage> getJSONDriverAllMessages(String jsontext) throws Exception {
         ArrayList<iMessage> temp = new ArrayList<>();

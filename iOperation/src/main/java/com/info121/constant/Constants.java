@@ -244,6 +244,11 @@ public class Constants {
     public static String uRLiOpsDeleteDriverMessages = BASE_URL + "/iops/service.asmx?op=IOPS_Messages_Delete";
     public static String APIDotNetSOAPActioniOpsDeleteDriverMessages = "http://tempuri.org/IOPS_Messages_Delete";
     public static String APIDotNetMethodNameDeleteDriverMessages = "IOPS_Messages_Delete";
+
+    // KZHTUN on 20171110
+    public static String uRLiOpsGetDriverAllJobs = BASE_URL + "/iops/service.asmx?op=IOPS_Survey_ListJobs";
+    public static String APIDotNetSOAPActioniOpsGetDriverAllJobs = "http://tempuri.org/IOPS_Survey_ListJobs";
+    public static String APIDotNetMethodNameGetDriverAllJobs = "IOPS_Survey_ListJobs";
 //
 //    // KZHTUN on 20171025
 //    public static String uRLiOpsGetDriverNewMessages = BASE_URL + "/iops/service.asmx?op=IOPS_Messages_GetDriverNewMessages";

@@ -1,89 +1,94 @@
 package com.info121.ioperation.fragment;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 
+import com.info121.constant.Constants;
 import com.info121.ioperation.R;
+import com.info121.ioperation.adapter.JobAdapter;
+import com.info121.ioperation.adapter.MessageAdapter;
+import com.info121.ioperation.util.Parser;
+import com.info121.ioperation.util.Util;
+import com.info121.model.Job;
+import com.info121.model.iMessage;
+import com.info121.model.iNewMessage;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link JobListFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link JobListFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
-public class JobListFragment extends Fragment {
-    // TODO: Rename parameter arguments, choose names that match
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-    private static final String ARG_PARAM1 = "param1";
-    private static final String ARG_PARAM2 = "param2";
+import java.util.Hashtable;
+import java.util.List;
 
-    // TODO: Rename and change types of parameters
-    private String mParam1;
-    private String mParam2;
+public class JobListFragment extends Fragment{
+    private List<Job> mJobList;
+    private String mDriver;
+    private Context mContext;
+    private Button btHome;
+    private ProgressBar progressBar;
+    private ProgressDialog mProgressDialog;
+
+    private RecyclerView mRecyclerView;
+    private TextView mNoData;
+
 
     private OnFragmentInteractionListener mListener;
+    List<Job> listTemp;
 
     public JobListFragment() {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment JobListFragment.
-     */
-    // TODO: Rename and change types and number of parameters
+
     public static JobListFragment newInstance(String param1, String param2) {
         JobListFragment fragment = new JobListFragment();
-        Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
-        fragment.setArguments(args);
         return fragment;
     }
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        if (getArguments() != null) {
-            mParam1 = getArguments().getString(ARG_PARAM1);
-            mParam2 = getArguments().getString(ARG_PARAM2);
-        }
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_job_list, container, false);
-    }
+        View v = inflater.inflate(R.layout.fragment_job_list, container, false);
 
-    // TODO: Rename method, update argument and hook method into UI event
-    public void onButtonPressed(Uri uri) {
-        if (mListener != null) {
-            mListener.onFragmentInteraction(uri);
-        }
-    }
+        mContext = getActivity();
 
-    @Override
-    public void onAttach(Context context) {
-        super.onAttach(context);
-        if (context instanceof OnFragmentInteractionListener) {
-            mListener = (OnFragmentInteractionListener) context;
-        } else {
-            throw new RuntimeException(context.toString()
-                    + " must implement OnFragmentInteractionListener");
-        }
+        mDriver = mContext.getSharedPreferences(Util.SHARED_PREFERENCES_KEY, mContext.MODE_PRIVATE).getString(Util.LOGIN_KEY, "");
+
+        progressBar = (ProgressBar) v.findViewById(R.id.progress_bar);
+
+        btHome = (Button) v.findViewById(R.id.btHome_iOperationFragment);
+        mNoData = (TextView) v.findViewById(R.id.no_data);
+
+        mRecyclerView = (RecyclerView) v.findViewById(R.id.job_list);
+        mProgressDialog = new ProgressDialog(getActivity());
+
+        btHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                HomeFragment bidingFragment = new HomeFragment();
+                android.support.v4.app.FragmentTransaction fragmentTransaction = getActivity().getSupportFragmentManager().beginTransaction();
+                fragmentTransaction.replace(R.id.frame, bidingFragment);
+                fragmentTransaction.commit();
+            }
+        });
+
+        new getAllJobsAsyncTask().execute();
+
+        return v;
     }
 
     @Override
@@ -92,18 +97,78 @@ public class JobListFragment extends Fragment {
         mListener = null;
     }
 
-    /**
-     * This interface must be implemented by activities that contain this
-     * fragment to allow an interaction in this fragment to be communicated
-     * to the activity and potentially other fragments contained in that
-     * activity.
-     * <p>
-     * See the Android Training lesson <a href=
-     * "http://developer.android.com/training/basics/fragments/communicating.html"
-     * >Communicating with Other Fragments</a> for more information.
-     */
+
     public interface OnFragmentInteractionListener {
         // TODO: Update argument type and name
         void onFragmentInteraction(Uri uri);
     }
+
+
+    private class getAllJobsAsyncTask extends AsyncTask<Void, Void, String> {
+        boolean isTimeout = false;
+        boolean isMainPerson = false;
+
+        @Override
+        protected String doInBackground(Void... voids) {
+            Hashtable<String, String> parameter = new Hashtable<String, String>();
+
+            try {
+                parameter = new Hashtable<String, String>();
+                parameter.put("driver", mDriver);
+
+            } catch (Exception e) {
+                isTimeout = true;
+                Util.modifiedLogTrace(Log.getStackTraceString(e));
+            }
+
+            return Util.connectSOAP(Constants.uRLiOpsGetDriverAllJobs, Constants.APIDotNetNameSpace, Constants.APIDotNetSOAPActioniOpsGetDriverAllJobs, Constants.APIDotNetMethodNameGetDriverAllJobs, parameter);
+
+        }
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+
+            showProgressDialog();
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+            super.onPostExecute(result);
+
+            mProgressDialog.hide();
+
+            if (result != null) {
+                try {
+                    mJobList  = Parser.getJSONDriverAllJobs(result);
+
+                    if(mJobList.size() > 0) {
+                        mRecyclerView.setHasFixedSize(false);
+                        mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, false));
+                        mRecyclerView.setAdapter(new JobAdapter(getActivity(), mJobList));
+
+                        mNoData.setVisibility(View.GONE);
+                    }else{
+                        mNoData.setVisibility(View.VISIBLE);
+                        mRecyclerView.setVisibility(View.GONE);
+                    }
+
+                } catch (Exception e) {
+                    Util.modifiedLogTrace(e.getStackTrace().toString());
+                }
+            }
+        }
+    }
+
+
+    private void showProgressDialog() {
+        mProgressDialog.setMessage("Loading...");
+        mProgressDialog.setCancelable(false); // disable dismiss by tapping outside of the dialog
+        mProgressDialog.show();
+    }
+
+//    public void onMessageDelete(int i){
+//        listTemp.remove(i);
+//        mRecyclerView.getAdapter().notifyDataSetChanged();
+//    }
 }
