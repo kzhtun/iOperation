@@ -181,8 +181,6 @@ public class DetailsClaimListing extends Fragment implements View.OnClickListene
                 Boolean status = jsonObjectSingle.getBoolean("isSuccess");
 
                 if (status == true) {
-
-
                     JSONObject jsonObjectData = jsonObjectSingle.getJSONObject("data");
                     JSONArray ListofJobs = jsonObjectData.getJSONArray("listOfJobs");
 
@@ -191,17 +189,14 @@ public class DetailsClaimListing extends Fragment implements View.OnClickListene
                     String supplierName = jsonObjectData.getString("supplierName");
                     String claimDate = jsonObjectData.getString("claimDate");
 
-
                     tvTotalClaimAmt.setText(totalClaimAmount);
                     tvTotalJobAmt.setText(totalJobAmount);
                     tvSubmitedBy.setText(getActivity().getSharedPreferences(Util.SHARED_PREFERENCES_KEY, Context.MODE_PRIVATE).getString(Util.LOGIN_KEY, ""));
                     tvDate.setText(claimDate);
                     tvClaimNo.setText(claimNo);
-
                     tvSupper.setText(supplierName);
 
                     for (int i = 0; i < ListofJobs.length(); i++) {
-
 
                         JSONObject jsonObjectListofjobs = ListofJobs.getJSONObject(i);
                         String row = jsonObjectListofjobs.getString("row");
@@ -213,6 +208,7 @@ public class DetailsClaimListing extends Fragment implements View.OnClickListene
                         String totalAmount = jsonObjectListofjobs.getString("totalAmount");
                         String jobDate = jsonObjectListofjobs.getString("jobDate");
                         String jobStatus = jsonObjectListofjobs.getString("jobStatus");
+                        String remarks =  jsonObjectListofjobs.getString("remarks");
 
 
                         DetailsListingModel detailsListingModel = new DetailsListingModel();
@@ -225,43 +221,30 @@ public class DetailsClaimListing extends Fragment implements View.OnClickListene
                         detailsListingModel.setTotalAmount(totalAmount);
                         detailsListingModel.setJobDate(jobDate);
                         detailsListingModel.setJobStatus(jobStatus);
+                        detailsListingModel.setRemarks(remarks);
 
                         detailsListingsArrayModel.add(detailsListingModel);
 
-
                     }
-
 
                     detailListingAdapter = new DetailListingAdapter(getActivity(), detailsListingsArrayModel);
                     recyclerViewDetailsListing.setAdapter(detailListingAdapter);
-
 
                 } else {
 
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
-
-
             }
-
-
         }
-
-
     }
 
 
     public class DriverClaimsUpdateJob extends AsyncTask<Void, Void, String> {
-
-
         ProgressDialog dialog;
         String jobNo, claimNo, claimAmt;
 
-
         public DriverClaimsUpdateJob(String jobNo, String claimNo, String claimAmt) {
-
-
             this.jobNo = jobNo;
             this.claimNo = claimNo;
             this.claimAmt = claimAmt;
@@ -286,17 +269,13 @@ public class DetailsClaimListing extends Fragment implements View.OnClickListene
             parameter.put("ClaimAmount", claimAmt);
             parameter.put("Username", getActivity().getSharedPreferences(Util.SHARED_PREFERENCES_KEY, Context.MODE_PRIVATE).getString(Util.LOGIN_KEY, ""));
 
-
             return Util.connectSOAP(Constants.uRLIOPS_DriverClaimsUpdateJob, Constants.APIDotNetNameSpace, Constants.APIDotNetSOAPActionIOPS_DriverClaimsUpdateJob, Constants.APIDotNetMethodNameUpdateClaimsUpdateJob, parameter);
-
-
 
         }
 
         @Override
         protected void onPostExecute(String s) {
             super.onPostExecute(s);
-
 
             if (dialog != null) {
                 dialog.dismiss();
@@ -305,8 +284,6 @@ public class DetailsClaimListing extends Fragment implements View.OnClickListene
             Log.d("msg", "details update joblist res " + s);
 
             try {
-
-
                 JSONObject jsonObjectMain = new JSONObject(s);
                 JSONArray jsonArrayResult = jsonObjectMain.getJSONArray("result");
                 JSONObject jsonObjectResult = jsonArrayResult.getJSONObject(0);
@@ -328,8 +305,6 @@ public class DetailsClaimListing extends Fragment implements View.OnClickListene
             }
         }
 
-
     }
-
 
 }

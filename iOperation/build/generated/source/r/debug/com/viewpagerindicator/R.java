@@ -97,7 +97,7 @@ public final class R {
         public static final int none = 0x7f080155;
         public static final int top = 0x7f0801bf;
         public static final int triangle = 0x7f0801c1;
-        public static final int underline = 0x7f08022a;
+        public static final int underline = 0x7f08022b;
     }
     public static final class integer {
         public static final int default_circle_indicator_orientation = 0x7f090004;

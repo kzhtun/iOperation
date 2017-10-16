@@ -316,7 +316,13 @@ public class ReviewClaimsFragment extends Fragment implements View.OnClickListen
                     try {
                         if (selectedArraylist.size() == position + 1) {
                             JSONObject jsonMain = new JSONObject(s);
-                            if (jsonMain.getJSONArray("jobclaimjobsave").getJSONObject(0).getString("msg").equalsIgnoreCase("success")) {
+
+                            JSONObject jsonObjectMain = new JSONObject(s);
+                            JSONArray jsonArrayResult = jsonObjectMain.getJSONArray("result");
+                            JSONObject jsonObjectResult = jsonArrayResult.getJSONObject(0);
+                            Boolean status = jsonObjectResult.getBoolean("isSuccess");
+
+                            if (status) {
 //                                new SubmitUnclaimedJobListAsy().execute();
 //                                btnbackUnclaimed.performClick();
                                 Toast.makeText(getActivity(), "Claim no is updated", Toast.LENGTH_SHORT).show();

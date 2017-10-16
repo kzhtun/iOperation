@@ -61,6 +61,7 @@ public class DetailListingAdapter extends RecyclerView.Adapter<DetailListingAdap
         //  holder.tvStatus.setText("Status");// + detailsListingModel.getJobStatus());
         holder.tvOpsType.setText(detailsListingModel.getOpsType());
         holder.tvPax.setText(detailsListingModel.getPax() + " Pax");
+        holder.tvRemarks.setText(detailsListingModel.getRemarks().toString());
 
 
         holder.tvClaimAmt.addTextChangedListener(new TextWatcher() {
@@ -104,7 +105,7 @@ public class DetailListingAdapter extends RecyclerView.Adapter<DetailListingAdap
 
     public class MyviewHolder extends RecyclerView.ViewHolder {
 
-        public TextView tvDate, tvJobNo, tvJobAmt, tvStatus, tvOpsType, tvPax;
+        public TextView tvDate, tvJobNo, tvJobAmt, tvStatus, tvOpsType, tvPax, tvRemarks;
         public EditText tvClaimAmt;
         public LinearLayout linearMain;
 
@@ -117,6 +118,7 @@ public class DetailListingAdapter extends RecyclerView.Adapter<DetailListingAdap
             tvJobAmt = (TextView) itemView.findViewById(R.id.tv_jobamt_listing_adapter);
             tvClaimAmt = (EditText) itemView.findViewById(R.id.tv_claimsamt_listing_adapter);
             tvStatus = (TextView) itemView.findViewById(R.id.tv_pax_listing_status_adapter);
+            tvRemarks = (TextView) itemView.findViewById(R.id.tv_remarks);
 
             tvOpsType = (TextView) itemView.findViewById(R.id.tv_opstype_listing_adapter);
             tvPax = (TextView) itemView.findViewById(R.id.tv_pax_listing_adapter);
